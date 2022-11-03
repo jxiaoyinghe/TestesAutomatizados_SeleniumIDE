@@ -2,7 +2,7 @@
   "id": "7a109c2e-96f0-4829-9b9b-4ba7654baac1",
   "version": "2.0",
   "name": "Leroy_Merlin",
-  "url": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login ",
+  "url": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login",
   "tests": [{
     "id": "9032d8ea-72c5-4d46-8e5d-0f9e890388d4",
     "name": "Dev_Cadastro_Cliente_Autonomo_B2B",
@@ -391,7 +391,7 @@
         ["xpath=//form[@id='leroyRegisterForm']/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "77.978.499/0001-30"
+      "value": "26.163.117/0001-80"
     }, {
       "id": "c3c52ad9-d363-4a0e-af94-a1068c0118bd",
       "comment": "",
@@ -597,7 +597,7 @@
         ["xpath=//form[@id='leroyRegisterForm']/div[5]/input", "xpath:idRelative"],
         ["xpath=//div[5]/input", "xpath:position"]
       ],
-      "value": "atendimento@marinaetheocorretoresassociadosltda.com.br"
+      "value": "diretoria@migueleritaconstrucoesltda.com.br"
     }, {
       "id": "e4bbce54-c7d6-4367-8c94-622f3f7b33b7",
       "comment": "",
@@ -2279,63 +2279,34 @@
     "id": "cf05ea92-2a26-4e80-a28a-d5ce917d3f5a",
     "name": "QA_Cadastro_Cliente_Assistido_B2B",
     "commands": [{
-      "id": "aaf394e8-76fd-4b2e-bd5c-f85da5f8d6ad",
+      "id": "92e9a841-38dc-44c6-95dc-04d4de7c09a7",
       "comment": "",
       "command": "open",
       "target": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login",
       "targets": [],
       "value": ""
     }, {
-      "id": "7e2627a9-97ac-41c6-9904-9965e6a69c4f",
+      "id": "3a9cf790-4293-453f-85fb-33c12c0931a5",
       "comment": "",
       "command": "setWindowSize",
       "target": "1440x900",
       "targets": [],
       "value": ""
     }, {
-      "id": "398793cd-239f-4139-9986-5d8f089ff18f",
+      "id": "6a300f86-c5df-47c4-ae50-afeff3a1711e",
       "comment": "",
       "command": "click",
-      "target": "id=ASM-input-login",
+      "target": "id=asm-eye",
       "targets": [
-        ["id=ASM-input-login", "id"],
-        ["name=username", "name"],
-        ["css=#ASM-input-login", "css:finder"],
-        ["xpath=//input[@id='ASM-input-login']", "xpath:attributes"],
-        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
+        ["id=asm-eye", "id"],
+        ["css=#asm-eye", "css:finder"],
+        ["xpath=//img[@id='asm-eye']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "2f13f985-292a-41c9-b1e1-e438beca1914",
-      "comment": "",
-      "command": "type",
-      "target": "id=ASM-input-login",
-      "targets": [
-        ["id=ASM-input-login", "id"],
-        ["name=username", "name"],
-        ["css=#ASM-input-login", "css:finder"],
-        ["xpath=//input[@id='ASM-input-login']", "xpath:attributes"],
-        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
-      ],
-      "value": "ThamyresASM"
-    }, {
-      "id": "470119f2-949e-4b59-9ea8-589e1628a881",
-      "comment": "",
-      "command": "type",
-      "target": "id=ASM-input-password",
-      "targets": [
-        ["id=ASM-input-password", "id"],
-        ["name=password", "name"],
-        ["css=#ASM-input-password", "css:finder"],
-        ["xpath=//input[@id='ASM-input-password']", "xpath:attributes"],
-        ["xpath=//form[@id='asmLoginForm']/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/input", "xpath:position"]
-      ],
-      "value": "LeroyMerlin123!"
-    }, {
-      "id": "cb54238d-774c-4b77-9032-cf53ba7da435",
+      "id": "06640a21-ebf6-4e3b-8899-618d02a162d9",
       "comment": "",
       "command": "click",
       "target": "css=.hidden-xs",
@@ -2347,35 +2318,806 @@
       ],
       "value": ""
     }, {
-      "id": "37fd9307-59ae-465e-8911-d6ee51d1ef22",
+      "id": "9cceaabd-58ad-44f5-8de6-00c713a6a055",
       "comment": "",
-      "command": "type",
-      "target": "id=j_username",
+      "command": "click",
+      "target": "css=.js-stop-emulate",
       "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
+        ["css=.js-stop-emulate", "css:finder"],
+        ["xpath=//a[contains(text(),'adicionar novo cliente')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/b2bleroystorefront/leroyB2B/pt/BRL/customer/search')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"]
       ],
-      "value": "ThamyresASM"
+      "value": ""
     }, {
-      "id": "22463289-9dbc-47c4-9ed6-8446bdb6df97",
+      "id": "f23638dd-5046-4c00-bdbb-02806ce7c67b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cnpjSearch",
+      "targets": [
+        ["id=cnpjSearch", "id"],
+        ["name=cnpjSearch", "name"],
+        ["css=#cnpjSearch", "css:finder"],
+        ["xpath=//input[@id='cnpjSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='customerFinderForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31b12d3f-509e-4aab-95e8-bbe84859e346",
       "comment": "",
       "command": "type",
-      "target": "id=j_password",
+      "target": "id=cnpjSearch",
       "targets": [
-        ["id=j_password", "id"],
-        ["name=j_password", "name"],
-        ["css=#j_password", "css:finder"],
-        ["xpath=//input[@id='j_password']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
+        ["id=cnpjSearch", "id"],
+        ["name=cnpjSearch", "name"],
+        ["css=#cnpjSearch", "css:finder"],
+        ["xpath=//input[@id='cnpjSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='customerFinderForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "69.286.361/0001-42"
+    }, {
+      "id": "b9c7c2d4-bfe1-4a54-b3a9-9a6543f951b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customer-search > .row",
+      "targets": [
+        ["css=.customer-search > .row", "css:finder"],
+        ["xpath=//main/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a498a61a-04a0-4d1f-94a1-0ae0e7882aa0",
+      "comment": "",
+      "command": "click",
+      "target": "id=findCustomer",
+      "targets": [
+        ["id=findCustomer", "id"],
+        ["css=#findCustomer", "css:finder"],
+        ["xpath=//button[@id='findCustomer']", "xpath:attributes"],
+        ["xpath=//form[@id='customerFinderForm']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Seguinte')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71d57a3a-a37d-4a00-ad1d-315c8b9df960",
+      "comment": "",
+      "command": "click",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=socialName", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyB2BCustomerForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6d144f4-835f-4e17-8ac3-68be5a680caa",
+      "comment": "",
+      "command": "type",
+      "target": "id=company",
+      "targets": [
+        ["id=company", "id"],
+        ["name=socialName", "name"],
+        ["css=#company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyB2BCustomerForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Laura e Rodrigo Buffet Ltda"
+    }, {
+      "id": "31c3b5ca-b006-4694-816e-186456e11489",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customer-register > .row",
+      "targets": [
+        ["css=.customer-register > .row", "css:finder"],
+        ["xpath=//main/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef1c851f-c1fe-41ab-8a45-5fa929519d9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=nameBuyer", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
         ["xpath=//div[2]/div/input", "xpath:position"]
       ],
-      "value": "LeroyMerlin123!"
+      "value": ""
     }, {
-      "id": "8c1f17ea-c1e3-4ea5-863d-3a54e9c9508c",
+      "id": "1c1f1ebc-9d2e-4b1a-917b-a91b448895be",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstName",
+      "targets": [
+        ["id=firstName", "id"],
+        ["name=nameBuyer", "name"],
+        ["css=#firstName", "css:finder"],
+        ["xpath=//input[@id='firstName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Laura Rodrigues"
+    }, {
+      "id": "2eadd026-7a17-42ae-8cab-981c793b2eb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailBuyer", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec01b592-ae89-4ae2-bde4-cdf38ef8f757",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=emailBuyer", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "sac@marcosviniciuseaugustojoalheriame.com.br"
+    }, {
+      "id": "a6ea3ba8-ebc2-4c5b-8a5b-d9c5c924bd4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customer-register > .row",
+      "targets": [
+        ["css=.customer-register > .row", "css:finder"],
+        ["xpath=//main/div[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e165423-d444-40dd-ac8d-65c6e7b92e4a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cellphone",
+      "targets": [
+        ["id=cellphone", "id"],
+        ["name=cellphoneBuyer", "name"],
+        ["css=#cellphone", "css:finder"],
+        ["xpath=//input[@id='cellphone']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6a61a6f-e85d-49ba-8953-897a00ab0cf8",
+      "comment": "",
+      "command": "type",
+      "target": "id=cellphone",
+      "targets": [
+        ["id=cellphone", "id"],
+        ["name=cellphoneBuyer", "name"],
+        ["css=#cellphone", "css:finder"],
+        ["xpath=//input[@id='cellphone']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "(12) 99292-2991"
+    }, {
+      "id": "fc52a236-3d37-40ed-9026-1229e9b049ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(4) .checkmark",
+      "targets": [
+        ["css=.form-group:nth-child(4) .checkmark", "css:finder"],
+        ["xpath=//label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fb0a45b-f50e-4c87-a7bf-6767b59bc9ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-group:nth-child(5) .checkmark",
+      "targets": [
+        ["css=.form-group:nth-child(5) .checkmark", "css:finder"],
+        ["xpath=//div[5]/div/label/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdbc6ee2-bdfb-4ea4-8bac-b3295f04ae67",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3eefbc5-adbd-46d0-8211-a8500141262e",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "(12) 99292-2991"
+    }, {
+      "id": "1bbdc691-dc74-4bc8-8e27-e01dd07aa15e",
+      "comment": "",
+      "command": "click",
+      "target": "id=phoneExtension",
+      "targets": [
+        ["id=phoneExtension", "id"],
+        ["name=phoneExtension", "name"],
+        ["css=#phoneExtension", "css:finder"],
+        ["xpath=//input[@id='phoneExtension']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a3e2cca-993f-46fd-a4b0-d649edc83de1",
+      "comment": "",
+      "command": "type",
+      "target": "id=phoneExtension",
+      "targets": [
+        ["id=phoneExtension", "id"],
+        ["name=phoneExtension", "name"],
+        ["css=#phoneExtension", "css:finder"],
+        ["xpath=//input[@id='phoneExtension']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "195"
+    }, {
+      "id": "dde9d05a-26bc-4d19-9556-c1aa2902ca27",
+      "comment": "",
+      "command": "click",
+      "target": "id=store",
+      "targets": [
+        ["id=store", "id"],
+        ["name=store", "name"],
+        ["css=#store", "css:finder"],
+        ["xpath=//select[@id='store']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7096838f-9d62-45ff-8621-c5118cd53e0d",
+      "comment": "",
+      "command": "select",
+      "target": "id=store",
+      "targets": [],
+      "value": "label=Sorocaba"
+    }, {
+      "id": "8ccefa2e-ae31-4bbc-9f54-979162edf50f",
+      "comment": "",
+      "command": "click",
+      "target": "id=segment",
+      "targets": [
+        ["id=segment", "id"],
+        ["name=segment", "name"],
+        ["css=#segment", "css:finder"],
+        ["xpath=//select[@id='segment']", "xpath:attributes"],
+        ["xpath=//div[6]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eee71006-637f-4b46-b281-4dddafbac509",
+      "comment": "",
+      "command": "select",
+      "target": "id=segment",
+      "targets": [],
+      "value": "label=Administração De Obras"
+    }, {
+      "id": "b80d89e9-21db-42e1-948b-e3d1be2d6837",
+      "comment": "",
+      "command": "click",
+      "target": "id=stateRegistration",
+      "targets": [
+        ["id=stateRegistration", "id"],
+        ["name=stateRegistration", "name"],
+        ["css=#stateRegistration", "css:finder"],
+        ["xpath=//input[@id='stateRegistration']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85b3eb69-3843-42e3-bbf7-8141c4fe2f08",
+      "comment": "",
+      "command": "type",
+      "target": "id=stateRegistration",
+      "targets": [
+        ["id=stateRegistration", "id"],
+        ["name=stateRegistration", "name"],
+        ["css=#stateRegistration", "css:finder"],
+        ["xpath=//input[@id='stateRegistration']", "xpath:attributes"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "335.750.834.108"
+    }, {
+      "id": "3e5deb18-f173-40b9-8a4f-c8368d640564",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityRegistration",
+      "targets": [
+        ["id=cityRegistration", "id"],
+        ["name=cityRegistration", "name"],
+        ["css=#cityRegistration", "css:finder"],
+        ["xpath=//input[@id='cityRegistration']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3255037b-16b1-4f11-8be7-dfe6f93f8a27",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityRegistration",
+      "targets": [
+        ["id=cityRegistration", "id"],
+        ["name=cityRegistration", "name"],
+        ["css=#cityRegistration", "css:finder"],
+        ["xpath=//input[@id='cityRegistration']", "xpath:attributes"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "335.750.834.108"
+    }, {
+      "id": "2eb4739c-4c42-4985-9036-35cad658f19a",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=leroyAddressForm[0].postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//div[9]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2678bf7e-1979-45c2-b347-4f55fe9748bb",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=leroyAddressForm[0].postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//div[9]/div[2]/input", "xpath:position"]
+      ],
+      "value": "13187-244"
+    }, {
+      "id": "c45ff41e-97b7-4362-aed8-918c06dff2a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.line1",
+      "targets": [
+        ["id=address.line1", "id"],
+        ["name=leroyAddressForm[0].line1", "name"],
+        ["css=#address\\.line1", "css:finder"],
+        ["xpath=//input[@id='address.line1']", "xpath:attributes"],
+        ["xpath=//div[9]/div[4]/input", "xpath:position"]
+      ],
+      "value": "Octávio Boro"
+    }, {
+      "id": "c66dce5d-510c-4b32-8b2d-b86e98c06438",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.streetNumber",
+      "targets": [
+        ["id=address.streetNumber", "id"],
+        ["name=leroyAddressForm[0].streetNumber", "name"],
+        ["css=#address\\.streetNumber", "css:finder"],
+        ["xpath=//input[@id='address.streetNumber']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "221"
+    }, {
+      "id": "5031e4e1-033b-4331-85fb-fbb9e770eaa9",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=address.line2",
+      "targets": [
+        ["id=address.line2", "id"],
+        ["name=leroyAddressForm[0].line2", "name"],
+        ["css=#address\\.line2", "css:finder"],
+        ["xpath=//input[@id='address.line2']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a6f4ec3-0588-4d37-8d6a-7e8e078a59c9",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.addressBlock_register_customer > .form-group:nth-child(6) > .control-label",
+      "targets": [
+        ["css=.addressBlock_register_customer > .form-group:nth-child(6) > .control-label", "css:finder"],
+        ["xpath=//div[9]/div[6]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Complemento (opcional)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8113cb54-f5ea-488b-887e-9c34afee1607",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addressBlock_register_customer > .form-group:nth-child(6)",
+      "targets": [
+        ["css=.addressBlock_register_customer > .form-group:nth-child(6)", "css:finder"],
+        ["xpath=//div[9]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ce3fddb-b250-4cb3-ac30-d90f081ba330",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.line1",
+      "targets": [
+        ["id=address.line1", "id"],
+        ["name=leroyAddressForm[0].line1", "name"],
+        ["css=#address\\.line1", "css:finder"],
+        ["xpath=//input[@id='address.line1']", "xpath:attributes"],
+        ["xpath=//div[9]/div[4]/input", "xpath:position"]
+      ],
+      "value": "Octávio Boro"
+    }, {
+      "id": "15d33fad-7c37-45fc-838b-17b44e14831e",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerButton",
+      "targets": [
+        ["id=registerButton", "id"],
+        ["css=#registerButton", "css:finder"],
+        ["xpath=//button[@id='registerButton']", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41e213dd-7ec1-4266-b3f8-ef6c1d060002",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-owl-customer > div",
+      "targets": [
+        ["css=.js-owl-customer > div", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8f79fcd-7068-48a5-9f96-f56d339e50bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-owl-customer > div",
+      "targets": [
+        ["css=.js-owl-customer > div", "css:finder"],
+        ["xpath=//div[3]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "2ee94c9e-bbf8-4b95-9f76-d2e64892fbbf",
+    "name": "QA_Finalizar_Atendimento_Cliente_Assistido_B2B",
+    "commands": [{
+      "id": "2ca63742-03aa-4cbd-a2b4-760440d89d5e",
+      "comment": "",
+      "command": "open",
+      "target": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "694ab34f-0532-4d36-b242-0bcd4ea7cb05",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "883c7044-edf0-4e88-9540-27347f6464ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=ASM-input-login",
+      "targets": [
+        ["id=ASM-input-login", "id"],
+        ["name=username", "name"],
+        ["css=#ASM-input-login", "css:finder"],
+        ["xpath=//input[@id='ASM-input-login']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6da3857c-dd76-4c14-94fd-daaea2c294cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=asm-eye",
+      "targets": [
+        ["id=asm-eye", "id"],
+        ["css=#asm-eye", "css:finder"],
+        ["xpath=//img[@id='asm-eye']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fece4b8-51bb-440c-ad1c-5255f68b1eee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hidden-xs",
+      "targets": [
+        ["css=.hidden-xs", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb8d241e-d236-4190-8bbd-e6ef2bc94e64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d47c58a-765e-49ba-9030-361fc29f2ac5",
+      "comment": "",
+      "command": "click",
+      "target": "id=fullName",
+      "targets": [
+        ["id=fullName", "id"],
+        ["name=fullName", "name"],
+        ["css=#fullName", "css:finder"],
+        ["xpath=//input[@id='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='asmCustomerSearchField']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56c07d7f-fde6-49ec-a6d7-e25760c628f8",
+      "comment": "",
+      "command": "type",
+      "target": "id=fullName",
+      "targets": [
+        ["id=fullName", "id"],
+        ["name=fullName", "name"],
+        ["css=#fullName", "css:finder"],
+        ["xpath=//input[@id='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='asmCustomerSearchField']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "rodrigo"
+    }, {
+      "id": "78fbec2d-bd84-4d7c-8fe8-e2716b4bff81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-customer-search-submit",
+      "targets": [
+        ["css=.js-customer-search-submit", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23eceb8-f36c-4832-8b5e-61a05e0ba37c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rodrigo",
+      "targets": [
+        ["linkText=Rodrigo", "linkText"],
+        ["css=.responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Rodrigo')]", "xpath:link"],
+        ["xpath=//div[@id='js-clients-results']/div/div[2]/div/div[2]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/b2bleroystorefront/leroyB2B/pt/BRL/assisted-service/emulate/?customerId=sistema@rodrigoemarcosesportesltda.com.br')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rodrigo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64cf407c-e14a-478a-b62e-2df3a2575b1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#stopEmulate > .hidden-sm",
+      "targets": [
+        ["css=#stopEmulate > .hidden-sm", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']/span", "xpath:idRelative"],
+        ["xpath=//fieldset/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef468a97-f68f-4e54-80a6-4c302d8b21f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b3bfc98e-5260-44b7-b0f5-6e4bf2857f13",
+    "name": "QA_Selecionar_Cliente_Vendedor_B2B",
+    "commands": [{
+      "id": "47d9310f-89f4-42da-85c8-9b9e2ede7768",
+      "comment": "",
+      "command": "open",
+      "target": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28ffcd27-ae7d-4473-819d-dfd72cbc6ecc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1fee33b-b962-4a80-909b-0fd53147c63d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hidden-xs",
+      "targets": [
+        ["css=.hidden-xs", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e71fa19-6b9d-48d1-a578-1bc12ec21ee1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a8b697b-3931-4fa6-90c9-b88461f453c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=fullName",
+      "targets": [
+        ["id=fullName", "id"],
+        ["name=fullName", "name"],
+        ["css=#fullName", "css:finder"],
+        ["xpath=//input[@id='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='asmCustomerSearchField']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1df8e9e-5a08-48bc-a78b-5a7742d87d76",
+      "comment": "",
+      "command": "type",
+      "target": "id=fullName",
+      "targets": [
+        ["id=fullName", "id"],
+        ["name=fullName", "name"],
+        ["css=#fullName", "css:finder"],
+        ["xpath=//input[@id='fullName']", "xpath:attributes"],
+        ["xpath=//div[@id='asmCustomerSearchField']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/form/div/div/input", "xpath:position"]
+      ],
+      "value": "rodrigo"
+    }, {
+      "id": "4225377d-6adb-48a5-80aa-4a9662b0cba4",
+      "comment": "",
+      "command": "click",
+      "target": "id=cboxLoadedContent",
+      "targets": [
+        ["id=cboxLoadedContent", "id"],
+        ["css=#cboxLoadedContent", "css:finder"],
+        ["xpath=//div[@id='cboxLoadedContent']", "xpath:attributes"],
+        ["xpath=//div[@id='cboxContent']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ed032df-c512-46a5-acf0-3e49073ca03f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-customer-search-submit",
+      "targets": [
+        ["css=.js-customer-search-submit", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "788f15b3-f028-4c59-9e78-69ac1bf623a4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-customer-search-submit",
+      "targets": [
+        ["css=.js-customer-search-submit", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f5fb092-d31b-469b-a961-ed84b2905a13",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-customer-search-submit",
+      "targets": [
+        ["css=.js-customer-search-submit", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buscar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "901f89d0-77ed-488a-943b-318691b114cb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rodrigo",
+      "targets": [
+        ["linkText=Rodrigo", "linkText"],
+        ["css=.responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Rodrigo')]", "xpath:link"],
+        ["xpath=//div[@id='js-clients-results']/div/div[2]/div/div[2]/table/tbody/tr/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/b2bleroystorefront/leroyB2B/pt/BRL/assisted-service/emulate/?customerId=sistema@rodrigoemarcosesportesltda.com.br')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rodrigo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f2e5e55-8983-47a4-a123-8395b2afa886",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1ec1bbba-306a-4ba7-b0ab-23d967e12db3",
+    "name": "QA_Login_Comprador_B2B",
+    "commands": [{
+      "id": "f02b590c-1e1c-40dd-a265-ccd045585ab8",
+      "comment": "",
+      "command": "open",
+      "target": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2250a623-0e0e-4c95-ad0a-a6e2c482a63e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "299c6d79-0930-4dcc-aa46-1d483f76dfeb",
       "comment": "",
       "command": "click",
       "target": "id=js-login-nav-login",
@@ -2391,7 +3133,7 @@
       ],
       "value": ""
     }, {
-      "id": "5313377c-4bda-480d-bd43-12c27cd3f90d",
+      "id": "89b7901c-d6a3-4bdb-9a3e-3ee3c7feacd3",
       "comment": "",
       "command": "type",
       "target": "id=j_username",
@@ -2403,9 +3145,9 @@
         ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
         ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
       ],
-      "value": "ThamyresASM"
+      "value": "Thamy4santos@gmail.com"
     }, {
-      "id": "82c80fdb-d641-450d-92b4-40f2c4b52758",
+      "id": "7982718d-1e13-4912-b3b6-4b624cfab3a2",
       "comment": "",
       "command": "type",
       "target": "id=j_password",
@@ -2419,7 +3161,21 @@
       ],
       "value": "LeroyMerlin123!"
     }, {
-      "id": "398e5db4-1d43-4743-8b54-e75b7af55bda",
+      "id": "9d7655be-cc6d-4226-80f1-d7ea8a9765f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_username",
+      "targets": [
+        ["id=j_username", "id"],
+        ["name=j_username", "name"],
+        ["css=#j_username", "css:finder"],
+        ["xpath=//input[@id='j_username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e40980c3-6047-461e-8bb8-a75371b6b2be",
       "comment": "",
       "command": "click",
       "target": "id=loginButton",
@@ -2431,168 +3187,84 @@
         ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
       ],
       "value": ""
+    }]
+  }, {
+    "id": "26ac78f9-2f00-424a-a0f8-ce65f14d40fb",
+    "name": "QA_Login_Vendedor_B2B",
+    "commands": [{
+      "id": "d1b67cf7-cac9-4ab8-92c6-2492c3139d85",
+      "comment": "",
+      "command": "open",
+      "target": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login",
+      "targets": [],
+      "value": ""
     }, {
-      "id": "65a4d662-676d-4633-8d7b-3c10c280b40a",
+      "id": "d219cfe8-8c42-4089-b32c-50a52134638c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "178ec964-dd7f-4b2f-a210-92d6e52652e0",
       "comment": "",
       "command": "click",
-      "target": "css=.email-wrapper .control-label",
+      "target": "id=ASM-input-login",
       "targets": [
-        ["css=.email-wrapper .control-label", "css:finder"],
-        ["xpath=//form[@id='loginForm']/div/div/div/label", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/label", "xpath:position"]
+        ["id=ASM-input-login", "id"],
+        ["name=username", "name"],
+        ["css=#ASM-input-login", "css:finder"],
+        ["xpath=//input[@id='ASM-input-login']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "3d4d2091-ac10-45d7-86b4-28b759ce33ec",
-      "comment": "",
-      "command": "click",
-      "target": "id=j_username",
-      "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "93367933-c48a-4bd7-a8eb-e896340056f0",
-      "comment": "",
-      "command": "click",
-      "target": "id=j_username",
-      "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "c418e54a-ccf8-4788-b2f6-a09225678497",
-      "comment": "",
-      "command": "doubleClick",
-      "target": "id=j_username",
-      "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "85568cd7-697d-4d21-80d4-6de2fe3786a5",
+      "id": "30e2ecdf-eba7-4d1d-8388-fa1b9085fa38",
       "comment": "",
       "command": "type",
-      "target": "id=j_username",
+      "target": "id=ASM-input-login",
       "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+        ["id=ASM-input-login", "id"],
+        ["name=username", "name"],
+        ["css=#ASM-input-login", "css:finder"],
+        ["xpath=//input[@id='ASM-input-login']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
       ],
       "value": "Thamyres.Santos.Silva@ibm.com"
     }, {
-      "id": "0ad49364-cf8a-4d80-baf2-9a6e7e6ba723",
-      "comment": "",
-      "command": "type",
-      "target": "id=j_password",
-      "targets": [
-        ["id=j_password", "id"],
-        ["name=j_password", "name"],
-        ["css=#j_password", "css:finder"],
-        ["xpath=//input[@id='j_password']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/input", "xpath:position"]
-      ],
-      "value": "12345678Ab-91"
-    }, {
-      "id": "6e91a83a-7551-4aa9-9e63-bf198302f7a9",
+      "id": "eb2cb75c-f36d-49b4-86f7-7b0a03657ccb",
       "comment": "",
       "command": "click",
-      "target": "id=loginButton",
+      "target": "css=.hidden-xs",
       "targets": [
-        ["id=loginButton", "id"],
-        ["xpath=//button[@id='loginButton']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+        ["css=.hidden-xs", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
       ],
       "value": ""
-    }, {
-      "id": "299c47ec-8ec0-48e9-8fba-9ecb6c19b4aa",
+    }]
+  }, {
+    "id": "e9325deb-edc8-4ffb-bc9c-72832ee28f6b",
+    "name": "QA_Redefinir_Senha_B2B",
+    "commands": [{
+      "id": "97bc25f0-35fd-497f-ba2a-691711fe5c11",
       "comment": "",
-      "command": "click",
-      "target": "id=j_username",
-      "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
-      ],
+      "command": "open",
+      "target": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login",
+      "targets": [],
       "value": ""
     }, {
-      "id": "417e7bbb-4871-472a-b18f-6d2256a1c51c",
+      "id": "fc3bbac7-05a1-49d3-8811-113cd939e894",
       "comment": "",
-      "command": "type",
-      "target": "id=j_username",
-      "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
-      ],
-      "value": "Thamy4santos@gmail.com"
-    }, {
-      "id": "48010a34-f5af-42fd-8e51-36b76afa2740",
-      "comment": "",
-      "command": "type",
-      "target": "id=j_password",
-      "targets": [
-        ["id=j_password", "id"],
-        ["name=j_password", "name"],
-        ["css=#j_password", "css:finder"],
-        ["xpath=//input[@id='j_password']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/input", "xpath:position"]
-      ],
-      "value": "123456789Ab-291"
-    }, {
-      "id": "a00a0dc7-e48b-48a2-ae9b-ecf6e301a385",
-      "comment": "",
-      "command": "click",
-      "target": "id=loginButton",
-      "targets": [
-        ["id=loginButton", "id"],
-        ["xpath=//button[@id='loginButton']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/button", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/button", "xpath:position"],
-        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
-      ],
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
       "value": ""
     }, {
-      "id": "91019b6b-caf6-4377-a5bb-04e17bed0a55",
-      "comment": "",
-      "command": "click",
-      "target": "css=#cboxClose > img",
-      "targets": [
-        ["css=#cboxClose > img", "css:finder"],
-        ["xpath=//button[@id='cboxClose']/img", "xpath:idRelative"],
-        ["xpath=//button[4]/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "96d06361-f19c-456a-9a1f-c251512d8241",
+      "id": "23c1f04d-132f-44b6-8485-58c1dda6abc5",
       "comment": "",
       "command": "click",
       "target": "id=js-login-nav-login",
@@ -2608,22 +3280,7 @@
       ],
       "value": ""
     }, {
-      "id": "3175558b-0864-4e2f-bad9-dc4922c1fb60",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=Voltar para tela de login",
-      "targets": [
-        ["linkText=Voltar para tela de login", "linkText"],
-        ["css=p:nth-child(3) > a", "css:finder"],
-        ["xpath=//a[contains(text(),'Voltar para tela de login')]", "xpath:link"],
-        ["xpath=//div[@id='js-login-nav']/div/p[3]/a", "xpath:idRelative"],
-        ["xpath=(//a[contains(@href, '/b2bleroystorefront/leroyB2B/pt/BRL/login')])[9]", "xpath:href"],
-        ["xpath=//p[3]/a", "xpath:position"],
-        ["xpath=//a[contains(.,'Voltar para tela de login')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "56e7336b-da8a-411a-8288-148fb7605f51",
+      "id": "c5ca272d-ac45-43db-9cc4-d9ff9ed1c277",
       "comment": "",
       "command": "type",
       "target": "id=j_username",
@@ -2633,11 +3290,11 @@
         ["css=#j_username", "css:finder"],
         ["xpath=//input[@id='j_username']", "xpath:attributes"],
         ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
       ],
-      "value": "Thamy4santos@gmail.com"
+      "value": "Thamyres.Santos.Sil"
     }, {
-      "id": "cc0dde2c-4fe6-4261-92a1-22e22d7146d1",
+      "id": "32426a39-5656-469c-8579-e5d97937b59c",
       "comment": "",
       "command": "type",
       "target": "id=j_password",
@@ -2649,9 +3306,97 @@
         ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
         ["xpath=//div[2]/div/input", "xpath:position"]
       ],
-      "value": "123456789Ab-291"
+      "value": "LeroyMerlin123!"
     }, {
-      "id": "61815c94-9219-4eb5-8a14-b97edf607d7f",
+      "id": "d6e13f25-ce50-4665-ad40-252fa0d15681",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Esqueceu sua senha?",
+      "targets": [
+        ["linkText=Esqueceu sua senha?", "linkText"],
+        ["css=.forgotten-password > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Esqueceu sua senha?')]", "xpath:link"],
+        ["xpath=//form[@id='loginForm']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/b2bleroystorefront/leroyB2B/pt/BRL/login/pw/request')]", "xpath:href"],
+        ["xpath=//form/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Esqueceu sua senha?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d77732a-5134-4e32-ba5d-999bc0aacbcf",
+      "comment": "",
+      "command": "click",
+      "target": "id=forgottenPwd.email",
+      "targets": [
+        ["id=forgottenPwd.email", "id"],
+        ["name=email", "name"],
+        ["css=#forgottenPwd\\.email", "css:finder"],
+        ["xpath=//input[@id='forgottenPwd.email']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyForgottenPwdForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad797ed2-d59b-453a-8396-539ee1bad08e",
+      "comment": "",
+      "command": "type",
+      "target": "id=forgottenPwd.email",
+      "targets": [
+        ["id=forgottenPwd.email", "id"],
+        ["name=email", "name"],
+        ["css=#forgottenPwd\\.email", "css:finder"],
+        ["xpath=//input[@id='forgottenPwd.email']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyForgottenPwdForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "thamyres.santos"
+    }, {
+      "id": "fd26e43c-a1c2-404b-ae3b-3aa31bdfd124",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-forgottenPwd-button",
+      "targets": [
+        ["css=.js-forgottenPwd-button", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='leroyForgottenPwdForm']/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enviar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c6bf72-747a-436e-bfdf-10a0a9437ebb",
+      "comment": "",
+      "command": "click",
+      "target": "id=js-password-success-btn",
+      "targets": [
+        ["id=js-password-success-btn", "id"],
+        ["css=#js-password-success-btn", "css:finder"],
+        ["xpath=//button[@id='js-password-success-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='js-login-nav']/button", "xpath:idRelative"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'ok')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "395fc029-38e8-4290-a5dd-593b08e0e620",
+    "name": "QA_Atualizar_Senha_B2B",
+    "commands": [{
+      "id": "4b7aa6ed-0aa4-4e61-846f-2a7e35bc91c3",
+      "comment": "",
+      "command": "open",
+      "target": "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3955d083-57d3-452a-bd10-3762e606c337",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "432f31fb-1f5e-4367-905e-9ea13968863c",
       "comment": "",
       "command": "click",
       "target": "id=js-login-nav-login",
@@ -2667,7 +3412,35 @@
       ],
       "value": ""
     }, {
-      "id": "6095458c-f1f2-4c81-9e18-c0f3644ea2b9",
+      "id": "0553e974-2d45-4e66-8f84-e6b224def872",
+      "comment": "",
+      "command": "type",
+      "target": "id=j_password",
+      "targets": [
+        ["id=j_password", "id"],
+        ["name=j_password", "name"],
+        ["css=#j_password", "css:finder"],
+        ["xpath=//input[@id='j_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "LeroyMerlin123!"
+    }, {
+      "id": "b90121c2-9453-446d-a803-c927f211ae2a",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_username",
+      "targets": [
+        ["id=j_username", "id"],
+        ["name=j_username", "name"],
+        ["css=#j_username", "css:finder"],
+        ["xpath=//input[@id='j_username']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0360ac69-a39d-4658-b06f-7f13d1b2c70c",
       "comment": "",
       "command": "type",
       "target": "id=j_username",
@@ -2681,63 +3454,7 @@
       ],
       "value": "Thamy4santos@gmail.com"
     }, {
-      "id": "6aaa492c-3fcf-4362-a0cc-7468329106dc",
-      "comment": "",
-      "command": "type",
-      "target": "id=j_password",
-      "targets": [
-        ["id=j_password", "id"],
-        ["name=j_password", "name"],
-        ["css=#j_password", "css:finder"],
-        ["xpath=//input[@id='j_password']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/input", "xpath:position"]
-      ],
-      "value": "123456789Ab-291"
-    }, {
-      "id": "1960a349-e753-4d32-960c-4127a7748e31",
-      "comment": "",
-      "command": "click",
-      "target": "id=j_username",
-      "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "4679a88f-dfb5-4405-ab59-0ef3cad83495",
-      "comment": "",
-      "command": "type",
-      "target": "id=j_username",
-      "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div/form/div/div/div/input", "xpath:position"]
-      ],
-      "value": "Thamyres.tss2468@gmail.com"
-    }, {
-      "id": "8c05927c-e731-47f5-86b7-c21f9c0a3381",
-      "comment": "",
-      "command": "type",
-      "target": "id=j_password",
-      "targets": [
-        ["id=j_password", "id"],
-        ["name=j_password", "name"],
-        ["css=#j_password", "css:finder"],
-        ["xpath=//input[@id='j_password']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div/input", "xpath:position"]
-      ],
-      "value": "12345678Ab-912"
-    }, {
-      "id": "3ac1b1a6-df16-4f95-9540-c72889f3c576",
+      "id": "ebfbda50-8068-43e1-ba13-f644d01c5e59",
       "comment": "",
       "command": "click",
       "target": "id=loginButton",
@@ -2750,27 +3467,7 @@
       ],
       "value": ""
     }, {
-      "id": "d6632ff5-fca2-46e0-8e5b-711f318d1d28",
-      "comment": "",
-      "command": "click",
-      "target": "css=.hidden-xs > .yCmsComponent img",
-      "targets": [
-        ["css=.hidden-xs > .yCmsComponent img", "css:finder"],
-        ["xpath=(//img[@alt='Leroy Merlin B2B Store'])[2]", "xpath:img"],
-        ["xpath=//div[2]/div/div/div/div/div/a/img", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "be304c9d-3cdc-41f8-91b4-006fd89d873f",
-      "comment": "",
-      "command": "click",
-      "target": "css=.my-account-links-header > .glyphicon > svg",
-      "targets": [
-        ["css=.my-account-links-header > .glyphicon > svg", "css:finder"]
-      ],
-      "value": ""
-    }, {
-      "id": "7b1d734a-16f5-4259-9f5c-434b0c5d1b73",
+      "id": "e61d31e2-6ced-46e0-84c3-957ea5dcd51e",
       "comment": "",
       "command": "click",
       "target": "css=.myAccountLinksHeader",
@@ -2780,45 +3477,194 @@
       ],
       "value": ""
     }, {
-      "id": "cbf9562d-fad9-4d82-9e44-d7c48185e14b",
+      "id": "6241789f-eb28-43eb-b315-55657c7c89e7",
       "comment": "",
       "command": "click",
-      "target": "css=.my-account-links-header > .nav-order-tools__child-wrap:nth-child(4) > div:nth-child(7) > a",
+      "target": "css=.my-account-links-header > .nav-order-tools__child-wrap:nth-child(4) > div:nth-child(6) > a",
       "targets": [
-        ["css=.my-account-links-header > .nav-order-tools__child-wrap:nth-child(4) > div:nth-child(7) > a", "css:finder"],
-        ["xpath=(//a[contains(text(),'Logout')])[6]", "xpath:link"],
-        ["xpath=(//a[contains(@href, '/b2bleroystorefront/leroyB2B/pt/BRL/logout')])[6]", "xpath:href"],
-        ["xpath=//li[4]/nav[2]/div[6]/a", "xpath:position"]
+        ["css=.my-account-links-header > .nav-order-tools__child-wrap:nth-child(4) > div:nth-child(6) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Senha')])[6]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/b2bleroystorefront/leroyB2B/pt/BRL/my-account/update-password')])[6]", "xpath:href"],
+        ["xpath=//li[4]/nav[2]/div[5]/a", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "975e2eb4-e608-43c8-a879-4654df7ddd40",
+      "id": "90d954b4-c67b-40d4-8c44-bda8965a3b1e",
       "comment": "",
-      "command": "type",
-      "target": "id=j_username",
+      "command": "click",
+      "target": "id=profile-oldPassword",
       "targets": [
-        ["id=j_username", "id"],
-        ["name=j_username", "name"],
-        ["css=#j_username", "css:finder"],
-        ["xpath=//input[@id='j_username']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div/div/input", "xpath:idRelative"],
-        ["xpath=//input", "xpath:position"]
+        ["id=profile-oldPassword", "id"],
+        ["name=oldPassword", "name"],
+        ["css=#profile-oldPassword", "css:finder"],
+        ["xpath=//input[@id='profile-oldPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
       ],
-      "value": "Thamy4santos@gmail.com"
+      "value": ""
     }, {
-      "id": "112fb813-a8f4-4354-9e3f-b9ff6370c847",
+      "id": "f64c89a4-fb6b-4f4b-8732-2cf5d47472c7",
       "comment": "",
       "command": "type",
-      "target": "id=j_password",
+      "target": "id=profile-oldPassword",
       "targets": [
-        ["id=j_password", "id"],
-        ["name=j_password", "name"],
-        ["css=#j_password", "css:finder"],
-        ["xpath=//input[@id='j_password']", "xpath:attributes"],
-        ["xpath=//form[@id='loginForm']/div/div[2]/div/input", "xpath:idRelative"],
+        ["id=profile-oldPassword", "id"],
+        ["name=oldPassword", "name"],
+        ["css=#profile-oldPassword", "css:finder"],
+        ["xpath=//input[@id='profile-oldPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "LeroyMerlin123!"
+    }, {
+      "id": "fb529131-e504-4428-b6b2-14e73e752a6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile-newPassword",
+      "targets": [
+        ["id=profile-newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#profile-newPassword", "css:finder"],
+        ["xpath=//input[@id='profile-newPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[2]/div/input", "xpath:idRelative"],
         ["xpath=//div[2]/div/input", "xpath:position"]
       ],
-      "value": "123456789Ab-291"
+      "value": ""
+    }, {
+      "id": "15090abe-b581-4a7a-bcf5-7c2f719ac360",
+      "comment": "",
+      "command": "type",
+      "target": "id=profile-newPassword",
+      "targets": [
+        ["id=profile-newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#profile-newPassword", "css:finder"],
+        ["xpath=//input[@id='profile-newPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "LeroyMerlin123!"
+    }, {
+      "id": "c15e1b65-24cd-4118-a601-0fedde69f46c",
+      "comment": "",
+      "command": "click",
+      "target": "id=eye-new-password",
+      "targets": [
+        ["id=eye-new-password", "id"],
+        ["css=#eye-new-password", "css:finder"],
+        ["xpath=//img[@id='eye-new-password']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[2]/img", "xpath:idRelative"],
+        ["xpath=//div[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9e643a4-4ae0-44cd-a3ec-699ac87c9308",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile-newPassword",
+      "targets": [
+        ["id=profile-newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#profile-newPassword", "css:finder"],
+        ["xpath=//input[@id='profile-newPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7c203bc-5c17-4337-8452-1e72336c98e7",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile-newPassword",
+      "targets": [
+        ["id=profile-newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#profile-newPassword", "css:finder"],
+        ["xpath=//input[@id='profile-newPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d5d61f-1e61-4083-8753-c22142bceaa0",
+      "comment": "",
+      "command": "type",
+      "target": "id=profile-newPassword",
+      "targets": [
+        ["id=profile-newPassword", "id"],
+        ["name=newPassword", "name"],
+        ["css=#profile-newPassword", "css:finder"],
+        ["xpath=//input[@id='profile-newPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "LeroyMerlin123!2"
+    }, {
+      "id": "6e0508bd-c31f-4df0-9fc2-38b4bdc2af4c",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile-checkNewPassword",
+      "targets": [
+        ["id=profile-checkNewPassword", "id"],
+        ["name=checkNewPassword", "name"],
+        ["css=#profile-checkNewPassword", "css:finder"],
+        ["xpath=//input[@id='profile-checkNewPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fe62d61-749f-4136-8cc7-e5ee3fb4001d",
+      "comment": "",
+      "command": "type",
+      "target": "id=profile-checkNewPassword",
+      "targets": [
+        ["id=profile-checkNewPassword", "id"],
+        ["name=checkNewPassword", "name"],
+        ["css=#profile-checkNewPassword", "css:finder"],
+        ["xpath=//input[@id='profile-checkNewPassword']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "LeroyMerlin123!2"
+    }, {
+      "id": "1c3a4e5a-5499-478d-af66-b95a4c95ce30",
+      "comment": "",
+      "command": "click",
+      "target": "id=eye-check-new-password",
+      "targets": [
+        ["id=eye-check-new-password", "id"],
+        ["css=#eye-check-new-password", "css:finder"],
+        ["xpath=//img[@id='eye-check-new-password']", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c67d82-9cf8-4d75-bf2d-06fe2f76720c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//form[@id='leroyUpdatePasswordForm']/div[5]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Atualizar Senha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5110f712-2a9c-41f4-98ee-b4c5d05725b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[4]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'×')]", "xpath:innerText"]
+      ],
+      "value": ""
     }]
   }],
   "suites": [{
@@ -2827,15 +3673,15 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["9032d8ea-72c5-4d46-8e5d-0f9e890388d4", "eda65166-316f-4678-a1ee-83369d59e577", "271fc5cc-1d1a-4295-8165-e7511f8e40b2", "f99a94c8-15f7-44fa-82af-569bc5e2026c", "0de92a1b-fce8-4c53-9c52-acb6c31b3024", "1362fc9a-17cc-403e-89f0-1dfa7d256eee", "2bcf1d7a-5537-44b7-87e7-830f43e522da"]
+    "tests": ["9032d8ea-72c5-4d46-8e5d-0f9e890388d4", "eda65166-316f-4678-a1ee-83369d59e577", "271fc5cc-1d1a-4295-8165-e7511f8e40b2", "f99a94c8-15f7-44fa-82af-569bc5e2026c", "0de92a1b-fce8-4c53-9c52-acb6c31b3024", "1362fc9a-17cc-403e-89f0-1dfa7d256eee", "2bcf1d7a-5537-44b7-87e7-830f43e522da", "20056830-b825-4c02-8ed1-fe38c3febac5"]
   }, {
     "id": "bf66d194-d1b3-4c84-8fb9-22f487d484a5",
     "name": "QA_B2B",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["42a87146-4148-4a76-b11c-eeaa3850fdb2"]
+    "tests": ["42a87146-4148-4a76-b11c-eeaa3850fdb2", "cf05ea92-2a26-4e80-a28a-d5ce917d3f5a", "395fc029-38e8-4290-a5dd-593b08e0e620", "2ee94c9e-bbf8-4b95-9f76-d2e64892fbbf", "1ec1bbba-306a-4ba7-b0ab-23d967e12db3", "26ac78f9-2f00-424a-a0f8-ce65f14d40fb", "e9325deb-edc8-4ffb-bc9c-72832ee28f6b", "b3bfc98e-5260-44b7-b0f5-6e4bf2857f13"]
   }],
-  "urls": ["https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/", "https://b2b.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login", "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/", "https://b2b.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login"],
+  "urls": ["https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/", "https://b2b.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login", "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/", "https://b2b.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login", "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login", "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login"],
   "plugins": []
 }
