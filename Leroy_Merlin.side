@@ -16152,6 +16152,521 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "ffb934fa-6eec-4965-b58b-7e44081691b9",
+    "name": "DEV_Altera_Email_Cliente_B2C",
+    "commands": [{
+      "id": "ed231f2a-c2ce-4460-9dd4-379c532736de",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05c99aee-e28c-4498-83bb-ae1e3a89f829",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56758cdf-36b6-4037-8cd6-805960189df0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aff361ac-d836-4f23-9364-14767a65ef2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb2581a0-3a13-46a4-ae9c-0a3c4c6b1b07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.techne-table-xs-left:nth-child(2) > td:nth-child(2) > .responsive-table-link",
+      "targets": [
+        ["css=.techne-table-xs-left:nth-child(2) > td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Renato e Cláudio Assessoria Jurídica ME Renato e Cláudio Assessoria Jurídica ME')])[2]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=43016887000119')])[2]", "xpath:href"],
+        ["xpath=//tr[2]/td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e667edc0-8070-4c5f-a3d4-90f1d6f4442b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-navigation-account svg",
+      "targets": [
+        ["css=.header-navigation-account svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "70abe292-4f1e-495b-8ac5-ec0f2a19c82a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(5) > a",
+      "targets": [
+        ["css=.col-md-4:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Endereço de Email')]", "xpath:link"],
+        ["xpath=//div[@id='accNavComponentDesktopOne']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/my-account/update-email')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "850a88ea-4d4c-4a12-92e5-987e8c7941fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile.email",
+      "targets": [
+        ["id=profile.email", "id"],
+        ["name=email", "name"],
+        ["css=#profile\\.email", "css:finder"],
+        ["xpath=//input[@id='profile.email']", "xpath:attributes"],
+        ["xpath=//form[@id='updateEmailForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc4563bd-5036-4e6a-b411-486483262951",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile.email",
+      "targets": [
+        ["id=profile.email", "id"],
+        ["name=email", "name"],
+        ["css=#profile\\.email", "css:finder"],
+        ["xpath=//input[@id='profile.email']", "xpath:attributes"],
+        ["xpath=//form[@id='updateEmailForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a79a63b5-af7d-4c0a-afd0-9e9fc6109152",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=profile.email",
+      "targets": [
+        ["id=profile.email", "id"],
+        ["name=email", "name"],
+        ["css=#profile\\.email", "css:finder"],
+        ["xpath=//input[@id='profile.email']", "xpath:attributes"],
+        ["xpath=//form[@id='updateEmailForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8a192c8-1be0-438d-8a33-eff01bbed3e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile.email",
+      "targets": [
+        ["id=profile.email", "id"],
+        ["name=email", "name"],
+        ["css=#profile\\.email", "css:finder"],
+        ["xpath=//input[@id='profile.email']", "xpath:attributes"],
+        ["xpath=//form[@id='updateEmailForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd2859ab-b57b-40c3-a0bf-44d57a406d59",
+      "comment": "",
+      "command": "type",
+      "target": "id=profile.email",
+      "targets": [
+        ["id=profile.email", "id"],
+        ["name=email", "name"],
+        ["css=#profile\\.email", "css:finder"],
+        ["xpath=//input[@id='profile.email']", "xpath:attributes"],
+        ["xpath=//form[@id='updateEmailForm']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "treinamento@samueletomastelecomunicacoesltda.com.br"
+    }, {
+      "id": "5b6fd64a-df1b-4cab-8be4-ce6938adc983",
+      "comment": "",
+      "command": "click",
+      "target": "id=profile.checkEmail",
+      "targets": [
+        ["id=profile.checkEmail", "id"],
+        ["name=chkEmail", "name"],
+        ["css=#profile\\.checkEmail", "css:finder"],
+        ["xpath=//input[@id='profile.checkEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='updateEmailForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fce79071-0581-491f-910d-c1badbde83ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=profile.checkEmail",
+      "targets": [
+        ["id=profile.checkEmail", "id"],
+        ["name=chkEmail", "name"],
+        ["css=#profile\\.checkEmail", "css:finder"],
+        ["xpath=//input[@id='profile.checkEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='updateEmailForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "treinamento@samueletomastelecomunicacoesltda.com.br"
+    }, {
+      "id": "05f60d0a-1733-45c6-a9e2-7bbac016566e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='updateEmailForm']/div[4]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b9274af-88be-4341-817a-2288f91e3784",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8c1024c-e4eb-49cb-8de8-fea6d6639d69",
+      "comment": "",
+      "command": "click",
+      "target": "css=#stopEmulate > .hidden-sm",
+      "targets": [
+        ["css=#stopEmulate > .hidden-sm", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']/span", "xpath:idRelative"],
+        ["xpath=//fieldset/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cb625ab-e381-4b09-9e61-1e4286c27b59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18194982-ae56-4cb9-8f9a-3f297e06a4c1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bbd9e93d-2730-47e2-885f-40646b2d2550",
+    "name": "DEV_Endereco_Cliente_B2C",
+    "commands": [{
+      "id": "53017684-c7b9-4fd4-8af1-fb326526d1fc",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c426d6e-4a89-4861-a9c6-fa36f8777e1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f63a31e5-e751-43c8-9666-cc40c7a98465",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab01d8d-3ad9-4bad-9055-54d471a10d34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5221604-f4cd-425f-83ce-64666d4c0511",
+      "comment": "",
+      "command": "click",
+      "target": "css=.techne-table-xs-left:nth-child(2) > td:nth-child(2) > .responsive-table-link",
+      "targets": [
+        ["css=.techne-table-xs-left:nth-child(2) > td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Renato e Cláudio Assessoria Jurídica ME Renato e Cláudio Assessoria Jurídica ME')])[2]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=61608508000161')])[2]", "xpath:href"],
+        ["xpath=//tr[2]/td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8004a9d0-4618-4590-b43c-4841e3650075",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-navigation-account > .myAccountLinksHeader",
+      "targets": [
+        ["css=.header-navigation-account > .myAccountLinksHeader", "css:finder"],
+        ["xpath=//li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "123fe3af-246f-413d-b4c5-859264ba4c77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(3) > a",
+      "targets": [
+        ["css=.col-md-4:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Catálogo de Endereços')]", "xpath:link"],
+        ["xpath=//div[@id='accNavComponentDesktopOne']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/my-account/address-book')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4df6815-94bb-40d5-a24f-60a6b9aac7b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Adicionar Endereço",
+      "targets": [
+        ["linkText=Adicionar Endereço", "linkText"],
+        ["css=.account-section-header-add > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Adicionar Endereço')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'add-address')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Adicionar Endereço')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44f444c6-ef11-499c-9402-30a2a4d98f8f",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98d8dba6-bba6-44cd-82dc-b4a2c3d902cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "04895-090"
+    }, {
+      "id": "882df98b-9ec1-4e17-b47d-86f219775c5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.streetNumber",
+      "targets": [
+        ["id=address.streetNumber", "id"],
+        ["name=streetNumber", "name"],
+        ["css=#address\\.streetNumber", "css:finder"],
+        ["xpath=//input[@id='address.streetNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99d91c90-6ccf-48f2-819a-dc7b801066b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.streetNumber",
+      "targets": [
+        ["id=address.streetNumber", "id"],
+        ["name=streetNumber", "name"],
+        ["css=#address\\.streetNumber", "css:finder"],
+        ["xpath=//input[@id='address.streetNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "221"
+    }, {
+      "id": "af37499e-6bb0-4bf0-af3a-f0eae83bc4a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yCmsContentSlot > .row",
+      "targets": [
+        ["css=.yCmsContentSlot > .row", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "710a24fd-82df-494f-abdf-33ea793533ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.line2",
+      "targets": [
+        ["id=address.line2", "id"],
+        ["name=line2", "name"],
+        ["css=#address\\.line2", "css:finder"],
+        ["xpath=//input[@id='address.line2']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "adccc2ac-0a0b-453c-a83e-259d8a4f622f",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.line2",
+      "targets": [
+        ["id=address.line2", "id"],
+        ["name=line2", "name"],
+        ["css=#address\\.line2", "css:finder"],
+        ["xpath=//input[@id='address.line2']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "apto 09"
+    }, {
+      "id": "94802895-d074-40b4-9521-c7d306765e3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yCmsContentSlot > .row",
+      "targets": [
+        ["css=.yCmsContentSlot > .row", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8e152a7-5404-4402-9bc9-fa99dce8de50",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.phone",
+      "targets": [
+        ["id=address.phone", "id"],
+        ["name=phone", "name"],
+        ["css=#address\\.phone", "css:finder"],
+        ["xpath=//input[@id='address.phone']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67d3d0fa-a97b-4954-a79c-a7030162fa1d",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.phone",
+      "targets": [
+        ["id=address.phone", "id"],
+        ["name=phone", "name"],
+        ["css=#address\\.phone", "css:finder"],
+        ["xpath=//input[@id='address.phone']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "(11) 3753-3883"
+    }, {
+      "id": "4cbff0c0-6ca4-4cd3-b605-4a9c929fc107",
+      "comment": "",
+      "command": "click",
+      "target": "css=.yCmsContentSlot > .row",
+      "targets": [
+        ["css=.yCmsContentSlot > .row", "css:finder"],
+        ["xpath=//div[3]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8b6eeed-ccd5-40fb-8b2f-9007c0063182",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='addressform_button_panel']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b0e2532-b9f3-46f0-bf9b-60a88d7f13a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46f70414-6ab9-480c-8cf5-0256151dd798",
+      "comment": "",
+      "command": "click",
+      "target": "css=#stopEmulate > .hidden-sm",
+      "targets": [
+        ["css=#stopEmulate > .hidden-sm", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']/span", "xpath:idRelative"],
+        ["xpath=//fieldset/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b0c568e-fa25-44dd-bbd7-db28a08557c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7317d7c3-f1f0-40f9-97ab-4248d18fc5d0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "19531286-f2f2-478d-9415-c6ed38fd346a",
