@@ -54,7 +54,7 @@
         ["xpath=//form[@id='leroyRegisterForm']/div/input", "xpath:idRelative"],
         ["xpath=//input", "xpath:position"]
       ],
-      "value": "75408744000149"
+      "value": "05.673.262/0001-30"
     }, {
       "id": "55f3ab9a-e0ae-431b-85f0-a98b8764a98d",
       "comment": "",
@@ -166,7 +166,7 @@
         ["xpath=//form[@id='leroyRegisterForm']/div[5]/input", "xpath:idRelative"],
         ["xpath=//div[5]/input", "xpath:position"]
       ],
-      "value": "tesouraria@veraejoaolavanderialtda.com.br"
+      "value": "fabricacao@daianeeanamarketingltda.com.br"
     }, {
       "id": "03f32dd2-aa18-40b6-ac44-4f6ff308cddb",
       "comment": "",
@@ -17926,6 +17926,2634 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "7d26db41-2b9b-482a-a3f4-090eb38f6a5e",
+    "name": "DEV_Remover_Item_Carrinho_B2C",
+    "commands": [{
+      "id": "7b4ce8e7-a123-4a8d-824d-462ed06ee95a",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9bfb329-4284-4fa3-909a-2d9568281df9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66191cfc-168f-4fc3-9ede-9e7e9e68be01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50d47af0-75f1-4fc9-8c00-7b93dbf4b48c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68548829-0827-4f2e-a44d-b8d98ef87872",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thamyres Santos Silva",
+      "targets": [
+        ["linkText=Thamyres Santos Silva", "linkText"],
+        ["css=td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Thamyres Santos Silva')]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=40620073000109')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thamyres Santos Silva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f754edf-3fb7-4ad3-a844-0f250b78bd62",
+      "comment": "",
+      "command": "click",
+      "target": "css=li .mini-cart-count",
+      "targets": [
+        ["css=li .mini-cart-count", "css:finder"],
+        ["xpath=//li/div/div/div/a/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b6b7826-4955-4274-99c9-8d635d1035ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mini-cart-checkout-button",
+      "targets": [
+        ["css=.mini-cart-checkout-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[7]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f22c097a-3603-4961-b3ea-057def03ce75",
+      "comment": "",
+      "command": "click",
+      "target": "css=#editEntry_1 > .glyphicon",
+      "targets": [
+        ["css=#editEntry_1 > .glyphicon", "css:finder"],
+        ["xpath=//button[@id='editEntry_1']/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eedfc1d3-3980-48d9-b44f-9c175138c963",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Remover",
+      "targets": [
+        ["linkText=Remover", "linkText"],
+        ["css=#actionEntry_1 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Remover')]", "xpath:link"],
+        ["xpath=//li[@id='actionEntry_1']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[6]", "xpath:href"],
+        ["xpath=//div[8]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Remover')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c08b45c-6c75-41a5-852a-61bed34c587f",
+      "comment": "",
+      "command": "click",
+      "target": "id=stopEmulate",
+      "targets": [
+        ["id=stopEmulate", "id"],
+        ["css=#stopEmulate", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']", "xpath:attributes"],
+        ["xpath=//form[@id='_asmSessionEndForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//span/form/fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ae7acd2-34d0-4c4e-b609-8f9803c02b11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5539845f-05e8-4b1d-9733-ea5c907d54e2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "70c7e584-6920-4c73-a889-8d775c1ad9e1",
+    "name": "DEV_Pesquisa_Produto_Adicione_Carrinho_B2C",
+    "commands": [{
+      "id": "073c77ca-f83c-4c68-90a7-13c0396d206f",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51016f97-26ae-4871-a358-16a3a0dcdeeb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7c94665-7bab-4aeb-9902-3499236ae918",
+      "comment": "",
+      "command": "click",
+      "target": "id=asm_username",
+      "targets": [
+        ["id=asm_username", "id"],
+        ["name=username", "name"],
+        ["css=#asm_username", "css:finder"],
+        ["xpath=//input[@id='asm_username']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99128fd7-c843-443f-a78e-dda48b610c7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=asm_username",
+      "targets": [
+        ["id=asm_username", "id"],
+        ["name=username", "name"],
+        ["css=#asm_username", "css:finder"],
+        ["xpath=//input[@id='asm_username']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa24da38-1dff-48d4-b1b2-34034fb4cbd8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=asm_username",
+      "targets": [
+        ["id=asm_username", "id"],
+        ["name=username", "name"],
+        ["css=#asm_username", "css:finder"],
+        ["xpath=//input[@id='asm_username']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b0075a5-f58f-4cb2-8786-a47b9f52801d",
+      "comment": "",
+      "command": "click",
+      "target": "id=asm_username",
+      "targets": [
+        ["id=asm_username", "id"],
+        ["name=username", "name"],
+        ["css=#asm_username", "css:finder"],
+        ["xpath=//input[@id='asm_username']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3ff127b-5fa2-4e43-9a5d-65eb959e5905",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d8ddd3c-5259-424a-83dd-f297abb1529b",
+      "comment": "",
+      "command": "click",
+      "target": "id=asm_password",
+      "targets": [
+        ["id=asm_password", "id"],
+        ["name=password", "name"],
+        ["css=#asm_password", "css:finder"],
+        ["xpath=//input[@id='asm_password']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c0beebb-8c06-41c7-a65f-5b8256c09d38",
+      "comment": "",
+      "command": "click",
+      "target": "id=asm_password",
+      "targets": [
+        ["id=asm_password", "id"],
+        ["name=password", "name"],
+        ["css=#asm_password", "css:finder"],
+        ["xpath=//input[@id='asm_password']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a9ddb31-f308-4d6c-bac3-3b6bfd507898",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=asm_password",
+      "targets": [
+        ["id=asm_password", "id"],
+        ["name=password", "name"],
+        ["css=#asm_password", "css:finder"],
+        ["xpath=//input[@id='asm_password']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca1798d-21f3-4f9e-be78-0adfb90d3ff2",
+      "comment": "",
+      "command": "click",
+      "target": "id=asm_password",
+      "targets": [
+        ["id=asm_password", "id"],
+        ["name=password", "name"],
+        ["css=#asm_password", "css:finder"],
+        ["xpath=//input[@id='asm_password']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "183b63bd-ccc4-4d92-add8-5b1994e11a8e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a5a28f7-8ad5-4c4a-91da-ebf76d3865b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae3f4b86-d3cf-4337-a6fe-bdcf6a1f5efd",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "tapete"
+    }, {
+      "id": "4078e7a3-8447-4728-9846-0635e1e99e6f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d7f93e2f-7d8a-4864-a3fe-9c051fbd2d6d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#addToCartForm89538771 > .btn",
+      "targets": [
+        ["css=#addToCartForm89538771 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm89538771']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77e60c15-fe3e-4490-80de-6f08aee99350",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a70d09c-a029-4d10-a61b-e4891fb363b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=stopEmulate",
+      "targets": [
+        ["id=stopEmulate", "id"],
+        ["css=#stopEmulate", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']", "xpath:attributes"],
+        ["xpath=//form[@id='_asmSessionEndForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//span/form/fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41034d02-bcd7-45fa-bc7b-882ee9818cc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f9c1c7-84d7-4952-9bef-131c11f21415",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a30b33fa-250c-4d4d-a68f-0c1af0f9333f",
+    "name": "DEV_Adiciona_Itens_Carrossel_B2C",
+    "commands": [{
+      "id": "c819e915-180c-4379-b5de-7a83a33421cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac86627f-c1dc-4c94-b532-eea99fc8fe60",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "295e0d86-97b4-4fab-baeb-b3e187e0b538",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "159f2993-fc74-4feb-846d-01651fb5b5f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-12:nth-child(1) .yCmsComponent:nth-child(2) .js-responsive-image",
+      "targets": [
+        ["css=.col-xs-12:nth-child(1) .yCmsComponent:nth-child(2) .js-responsive-image", "css:finder"],
+        ["xpath=//img[@alt='Torneiras']", "xpath:img"],
+        ["xpath=//div[2]/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "261a25bd-bf37-455a-96fa-231f7ea9b5ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=#addToCartForm90719195 > .btn",
+      "targets": [
+        ["css=#addToCartForm90719195 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[8]", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm90719195']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de51dcc3-6a06-489b-8f21-c612e66659e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2726c3f3-d9aa-4753-8adc-48fd805e61ed",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ba224d8-fedc-40cf-9b6c-463096268eaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6458c723-9dd5-41fd-9a8f-4d19a593dbdb",
+      "comment": "",
+      "command": "click",
+      "target": "id=stopEmulate",
+      "targets": [
+        ["id=stopEmulate", "id"],
+        ["css=#stopEmulate", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']", "xpath:attributes"],
+        ["xpath=//form[@id='_asmSessionEndForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//span/form/fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a263d64-8139-4b74-a046-09b7219cb537",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24597117-d198-4725-8c5e-b8f12e88a892",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6868b1d0-c432-4624-9097-233e26cef0c4",
+    "name": "DEV_Visualizar_Historico_Compras_B2C",
+    "commands": [{
+      "id": "702f4d9b-aaef-494c-855a-8869c1307bc4",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4be50c2-e397-49bc-88ad-3ea3f2c3f53d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fb1a0c4-42b8-4cc9-b137-2be9235bcea5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61d4cc7c-dbdb-488b-b0c9-8f3e4cd6ea75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9baab5e-6994-4741-a74e-6c0660d7f8c8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thamyres Santos Silva",
+      "targets": [
+        ["linkText=Thamyres Santos Silva", "linkText"],
+        ["css=td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Thamyres Santos Silva')]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=40620073000109')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thamyres Santos Silva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2c4b5e7-275a-433e-bbb4-73453fe799db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-navigation-account > .myAccountLinksHeader",
+      "targets": [
+        ["css=.header-navigation-account > .myAccountLinksHeader", "css:finder"],
+        ["xpath=//li[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03e65442-2113-4222-ab29-8aabb93ec201",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(4) > a",
+      "targets": [
+        ["css=.col-md-4:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Histórico de Compras')]", "xpath:link"],
+        ["xpath=//div[@id='accNavComponentDesktopOne']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/my-account/orders')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8156a5ad-ad30-4047-9200-e137f5079257",
+      "comment": "",
+      "command": "click",
+      "target": "id=stopEmulate",
+      "targets": [
+        ["id=stopEmulate", "id"],
+        ["css=#stopEmulate", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']", "xpath:attributes"],
+        ["xpath=//form[@id='_asmSessionEndForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//span/form/fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fb55380-ee9e-424d-b9c3-7b63435560f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b9b4f85-a7c5-4f4f-bab0-9c97c58cfb4d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3ab49c91-b9e5-4bf2-b91b-7f1173dbaada",
+    "name": "DEV_Calcular_Frete_B2C",
+    "commands": [{
+      "id": "b39121b8-2691-472c-a5a8-7bfecfc0e887",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9058888b-f6dc-49cd-a444-a6ee86883044",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9e47410-b049-4ad9-8145-6b76461aec04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e4eff99-5871-47cd-81db-a1db8ec86dff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6e5e562-13f6-4873-8224-9d3b8c41a1c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thamyres Santos Silva",
+      "targets": [
+        ["linkText=Thamyres Santos Silva", "linkText"],
+        ["css=td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Thamyres Santos Silva')]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=40620073000109')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thamyres Santos Silva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7601d09-28cb-4d00-8aff-b5846d5c9eab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pisos e Revestimentos",
+      "targets": [
+        ["linkText=Pisos e Revestimentos", "linkText"],
+        ["css=.auto:nth-child(8) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Pisos e Revestimentos')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/Todas-as-categorias/Pisos-e-Revestimentos/c/ffbaf27929868c29b913d828')])[2]", "xpath:href"],
+        ["xpath=//li[6]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a29068e2-74be-4d19-9fba-2655bb50e403",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,145)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48447242-c2f8-4402-aff1-6cd671b9d514",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Piso Vinílico Pietra Grafite VE0754R1 91,4x91,4cm 3mm",
+      "targets": [
+        ["linkText=Piso Vinílico Pietra Grafite VE0754R1 91,4x91,4cm 3mm", "linkText"],
+        ["css=.product-item:nth-child(2) .name", "css:finder"],
+        ["xpath=//a[contains(text(),'Piso Vinílico Pietra Grafite VE0754R1 91,4x91,4cm 3mm')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/Todas-as-categorias/Pisos-e-Revestimentos/Pisos/Pisos-Vin%C3%ADlicos/Piso-Vin%C3%ADlico-Pietra-Grafite-VE0754R1-91%2C4x91%2C4cm-3mm/p/90786773')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Piso Vinílico Pietra Grafite VE0754R1 91,4x91,4cm 3mm')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ceca200e-a371-4664-bc70-c25d0a4ad7f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29a1d2be-b30b-41bb-a826-bd4edfee83db",
+      "comment": "",
+      "command": "type",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "13560-550"
+    }, {
+      "id": "a83a27a5-e6fb-4033-aa35-57ccd7d68a78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main__inner-wrapper",
+      "targets": [
+        ["css=.main__inner-wrapper", "css:finder"],
+        ["xpath=//main/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28dbca72-61f0-4656-a035-9224ae0f4725",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pdp_delivery_selected_list:nth-child(5) li:nth-child(2)",
+      "targets": [
+        ["css=.pdp_delivery_selected_list:nth-child(5) li:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='delivery-estimation-container']/li/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li/ul/li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "018a0597-0ccf-4fa3-8bdd-2953c315ab97",
+      "comment": "",
+      "command": "click",
+      "target": "css=#stopEmulate > .hidden-sm",
+      "targets": [
+        ["css=#stopEmulate > .hidden-sm", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']/span", "xpath:idRelative"],
+        ["xpath=//fieldset/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7327c172-f8ff-441d-8308-5c1d452e5ba0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eabccd52-3054-4da8-a2ad-9080ee706ab6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a0cc73f0-c961-4a00-b221-7b8a39cf0ab4",
+    "name": "DEV_Fechar_Pedido_Boleto_B2C",
+    "commands": [{
+      "id": "d62a9817-d6cf-4178-b62c-b6280a3db206",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d20def91-76a9-4c16-8734-bd671a958bff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "447a9620-5b71-41a1-a414-1da4df38bb4e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05dafad1-c054-4ba1-b124-be0359a1ee98",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2427f4fc-74ca-4486-963d-5a8c55383480",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thamyres Santos Silva",
+      "targets": [
+        ["linkText=Thamyres Santos Silva", "linkText"],
+        ["css=td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Thamyres Santos Silva')]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=40620073000109')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thamyres Santos Silva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a09f4310-af23-4c4c-9a9b-fbe6b9566f6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aede53af-d2a5-4897-8523-6b656e620437",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "case"
+    }, {
+      "id": "a01c9192-9108-4638-b156-926fdab42c12",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "30e5484e-4c73-421c-b2bd-aed0b2828cfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=#addToCartForm89911234 > .btn",
+      "targets": [
+        ["css=#addToCartForm89911234 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[15]", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm89911234']/button", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/div/div[2]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc834b6-c5cd-456e-a9ef-e9875e969d04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c179054-cf22-468c-a211-c3904e399d74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart__actions:nth-child(2) .btn-primary",
+      "targets": [
+        ["css=.cart__actions:nth-child(2) .btn-primary", "css:finder"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b98a041a-4eb7-4152-a42e-f1c2ca035d6f",
+      "comment": "",
+      "command": "click",
+      "target": "id=choosePaymentType_continue_button",
+      "targets": [
+        ["id=choosePaymentType_continue_button", "id"],
+        ["css=#choosePaymentType_continue_button", "css:finder"],
+        ["xpath=//button[@id='choosePaymentType_continue_button']", "xpath:attributes"],
+        ["xpath=//form[@id='selectPaymentTypeForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2b981d5-656f-409e-87a8-ae8e5bc1e4af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84d67f9f-1872-48dc-9dc6-18145bcfba7c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "758cc8e6-70db-426a-8dc3-3dba67af5efd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c432d96-43f7-4b4d-853d-14eb13e177e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addressEntry:nth-child(1) .btn",
+      "targets": [
+        ["css=.addressEntry:nth-child(1) .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='addressbook']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8db855-5fce-4e2c-965b-c6f84c0aaf8b",
+      "comment": "",
+      "command": "click",
+      "target": "id=deliveryMethodSubmit",
+      "targets": [
+        ["id=deliveryMethodSubmit", "id"],
+        ["css=#deliveryMethodSubmit", "css:finder"],
+        ["xpath=//button[@id='deliveryMethodSubmit']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a850ed-5a80-46de-a46a-95f1e3cdebf1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,154)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e19703d-cbb0-4a1d-8c86-4af5b0c6cbed",
+      "comment": "",
+      "command": "click",
+      "target": "id=Terms1",
+      "targets": [
+        ["id=Terms1", "id"],
+        ["name=termsCheck", "name"],
+        ["css=.place-order-form > #placeOrderForm1 #Terms1", "css:finder"],
+        ["xpath=//input[@id='Terms1']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98c3bde9-273c-43de-904c-bf679cb17aa6",
+      "comment": "",
+      "command": "click",
+      "target": "id=placeOrder",
+      "targets": [
+        ["id=placeOrder", "id"],
+        ["css=.place-order-form > #placeOrderForm1 > #placeOrder", "css:finder"],
+        ["xpath=//button[@id='placeOrder']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1da5fab5-5c9c-4b2d-be67-3b492c93f060",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-7 .item-value",
+      "targets": [
+        ["css=.col-sm-7 .item-value", "css:finder"],
+        ["xpath=//div[2]/div/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67b9697c-db23-49eb-8eec-d8c0a3f4719b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-7 .item-value",
+      "targets": [
+        ["css=.col-sm-7 .item-value", "css:finder"],
+        ["xpath=//div[2]/div/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53453b53-c7d1-43fb-9cb4-df8e2635a645",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.col-sm-7 .item-value",
+      "targets": [
+        ["css=.col-sm-7 .item-value", "css:finder"],
+        ["xpath=//div[2]/div/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd29818-6eb5-4450-8c15-1de0e665b975",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-7 .item-value",
+      "targets": [
+        ["css=.col-sm-7 .item-value", "css:finder"],
+        ["xpath=//div[2]/div/div/div/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dad1506c-b75b-4403-9b5b-c33bcb5b5e91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12 > .btn",
+      "targets": [
+        ["css=.col-sm-12 > .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Visualizar Boleto')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://homolog.meiosdepagamentobradesco.com.br/apiboleto/Bradesco?token=eU5wcHhlOG5Mc0dVY1hoaGRDTEhNVTlsbGY5aU5SNlFCVjZoaFhSNCtlbXNHQThIT2NWejhvZmhBSWprRklBZw..')]", "xpath:href"],
+        ["xpath=//div/div[5]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5833",
+      "windowTimeout": 2000
+    }, {
+      "id": "1e43cb2f-8b2e-47e3-b68b-511d72159ea3",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2ef8e26-8b33-4763-9618-ce8ec5e47ece",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5833}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b57af882-a07d-4d33-b181-c0dbef45ed0a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5016e1a9-d054-48d6-917e-d606e4b7a218",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--continue-shopping",
+      "targets": [
+        ["css=.btn--continue-shopping", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38eb5ab1-0c83-4da9-b1a5-2b76f43a0bfc",
+      "comment": "",
+      "command": "click",
+      "target": "id=stopEmulate",
+      "targets": [
+        ["id=stopEmulate", "id"],
+        ["css=#stopEmulate", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']", "xpath:attributes"],
+        ["xpath=//form[@id='_asmSessionEndForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//span/form/fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53d76a91-cff4-45f0-815a-56d01e949ea5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c712b4d-c180-4b6b-b3a2-4086427e7781",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8db53c74-04b8-421c-9ffe-db0ae189eaf2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5833}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4401dd31-cef9-47f6-afe8-d0e2fec40f88",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "61a3109a-2bdc-49cf-bc24-ef5f95c8d166",
+    "name": "DEV_Fechar_Pedido_Cartao_Credito_B2C",
+    "commands": [{
+      "id": "0744d4f0-1ac1-4bf8-879e-f8dd895f8761",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f42f13b6-0c24-42b1-8a28-84fff97d456a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f31a9e5-085a-49df-bcaf-6e50052a182e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1227485e-2bb1-4f96-a784-3c3ee89d0b04",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": "58.296875,6"
+    }, {
+      "id": "08dec3e1-8aed-4c71-bf50-5ebd6b6d9478",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": "58.296875,6"
+    }, {
+      "id": "d53f0dfa-743c-4d3f-b2c4-3b3086ca8460",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": "58.296875,6"
+    }, {
+      "id": "75eeba10-21dc-4365-b242-f689637ef18d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27bd5d37-9204-4d07-890b-4fe1782bf9e8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Thamyres Santos Silva",
+      "targets": [
+        ["linkText=Thamyres Santos Silva", "linkText"],
+        ["css=td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Thamyres Santos Silva')]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=40620073000109')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Thamyres Santos Silva')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c68c5f1e-9349-42c9-9150-e74b9faf0870",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav__left > .row",
+      "targets": [
+        ["css=.nav__left > .row", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf4c8f8-4bcf-41eb-a00b-38f42f87b4d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8f88090-e182-4fd8-acaf-3988eb14ecc6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "prego"
+    }, {
+      "id": "45aac19c-cbc8-4a3b-9f8a-38107a425853",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.col-md-9 #js-site-search-input",
+      "targets": [
+        ["css=.col-md-9 #js-site-search-input", "css:finder"],
+        ["xpath=(//input[@id='js-site-search-input'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "adaf8764-8d3f-4586-a2d1-03ad8ff77ecc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#addToCartForm89911234 > .btn",
+      "targets": [
+        ["css=#addToCartForm89911234 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[8]", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm89911234']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79eb755d-b34c-459d-9606-e8f92c654d33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5acdef35-d7cd-437f-ad1b-381b78c0c62d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart__actions:nth-child(2) .btn-primary",
+      "targets": [
+        ["css=.cart__actions:nth-child(2) .btn-primary", "css:finder"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa9a96c0-79d1-4c65-a41b-75a32d25587f",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(6)",
+      "targets": [
+        ["css=label:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='selectPaymentTypeForm']/div/div/label[2]", "xpath:idRelative"],
+        ["xpath=//label[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97ab57d7-f419-4bd8-bf5a-effaf46733cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=choosePaymentType_continue_button",
+      "targets": [
+        ["id=choosePaymentType_continue_button", "id"],
+        ["css=#choosePaymentType_continue_button", "css:finder"],
+        ["xpath=//button[@id='choosePaymentType_continue_button']", "xpath:attributes"],
+        ["xpath=//form[@id='selectPaymentTypeForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4c2dea0-5a36-4d6f-90d9-58d50ecc955e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25280653-d64a-42fc-a0ef-2c5304453d4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addressEntry:nth-child(1) .btn",
+      "targets": [
+        ["css=.addressEntry:nth-child(1) .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='addressbook']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fc20ca2-3323-4919-942a-979bbb566ee0",
+      "comment": "",
+      "command": "click",
+      "target": "id=deliveryMethodSubmit",
+      "targets": [
+        ["id=deliveryMethodSubmit", "id"],
+        ["css=#deliveryMethodSubmit", "css:finder"],
+        ["xpath=//button[@id='deliveryMethodSubmit']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69f0970d-c2c4-4868-8481-e7cca58b0106",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmationMessage",
+      "targets": [
+        ["id=confirmationMessage", "id"],
+        ["name=confirmationMessage", "name"],
+        ["css=#confirmationMessage", "css:finder"],
+        ["xpath=//input[@id='confirmationMessage']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07c7b4f1-2ee6-44c3-8895-fd353b407093",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmationMessage",
+      "targets": [
+        ["id=confirmationMessage", "id"],
+        ["name=confirmationMessage", "name"],
+        ["css=#confirmationMessage", "css:finder"],
+        ["xpath=//input[@id='confirmationMessage']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "seguro"
+    }, {
+      "id": "13f5b96e-0995-456a-bce8-218e24a63245",
+      "comment": "",
+      "command": "click",
+      "target": "id=Terms1",
+      "targets": [
+        ["id=Terms1", "id"],
+        ["name=termsCheck", "name"],
+        ["css=.checkbox:nth-child(2) #Terms1", "css:finder"],
+        ["xpath=//input[@id='Terms1']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73872a01-5d94-4a01-b8f1-db912ac1421e",
+      "comment": "",
+      "command": "click",
+      "target": "id=placeOrder",
+      "targets": [
+        ["id=placeOrder", "id"],
+        ["css=.place-order-form > #placeOrderForm1 > #placeOrder", "css:finder"],
+        ["xpath=//button[@id='placeOrder']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a217602-1d2e-4121-86ed-ed40117d20bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-checkout-paymentLink_link-button",
+      "targets": [
+        ["css=.js-checkout-paymentLink_link-button", "css:finder"],
+        ["xpath=//div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aae948e-a959-4fa3-9f4a-2ae8a62b605e",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkout-paymentLink_value",
+      "targets": [
+        ["id=checkout-paymentLink_value", "id"],
+        ["linkText=https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront//payment?token=RnZBoBWDaZEwDjZLJPq%2BT%2B8TfWB7Cbj3sKiFltyc8lFtVFdL3n3OKzih4t1GwNAn5K%2FMY5zAPW7uAgZV80pVnKWtod%2Fize7%2FtebKatbOXNAmVPN%2FELgjWMvkeTRmmQ%2FsGlTjURBbyKYJp2s%2BLQOaKhXdbrWm3LBQgf8%3D", "linkText"],
+        ["css=#checkout-paymentLink_value", "css:finder"],
+        ["xpath=//a[contains(text(),'https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront//payment?token=RnZBoBWDaZEwDjZLJPq%2BT%2B8TfWB7Cbj3sKiFltyc8lFtVFdL3n3OKzih4t1GwNAn5K%2FMY5zAPW7uAgZV80pVnKWtod%2Fize7%2FtebKatbOXNAmVPN%2FELgjWMvkeTRmmQ%2FsGlTjURBbyKYJp2s%2BLQOaKhXdbrWm3LBQgf8%3D')]", "xpath:link"],
+        ["xpath=//a[@id='checkout-paymentLink_value']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/leroystorefront/pt/payment?token=RnZBoBWDaZEwDjZLJPq%2bT%2b8TfWB7Cbj3sKiFltyc8lFtVFdL3n3OKzih4t1GwNAn5K%2fMY5zAPW7uAgZV80pVnKWtod%2fize7%2ftebKatbOXNAmVPN%2fELgjWMvkeTRmmQ%2fsGlTjURBbyKYJp2s%2bLQOaKhXdbrWm3LBQgf8%3d')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront//payment?token=RnZBoBWDaZEwDjZLJPq%2BT%2B8TfWB7Cbj3sKiFltyc8lFtVFdL3n3OKzih4t1GwNAn5K%2FMY5zAPW7uAgZV80pVnKWtod%2Fize7%2FtebKatbOXNAmVPN%2FELgjWMvkeTRmmQ%2FsGlTjURBbyKYJp2s%2BLQOaKhXdbrWm3LBQgf8%3D')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed89db41-ad52-45a0-a4e2-5ae83bf819ec",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b77425c6-a211-407f-952b-c4d751676811",
+    "name": "DEV_Edita_Quantidade_Itens_Carrossel_B2C",
+    "commands": []
+  }, {
+    "id": "afcce095-c9ef-4bd1-8215-cefe97c6ad00",
+    "name": "QA_Calcular_Frete_B2C",
+    "commands": [{
+      "id": "f7b6cacd-0f4d-4311-a065-d3bcc46a21e7",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59a13196-fec3-45da-a703-c1707051aca2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "233ff4b7-b8a7-4800-9506-98c3dfa2442d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa46ea62-fb00-484d-810f-74745487c4da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Madeiras",
+      "targets": [
+        ["linkText=Madeiras", "linkText"],
+        ["css=.auto:nth-child(6) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Madeiras')])[5]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/Todas-as-categorias/Madeiras/c/1a8ad120950bca99adda415c')])[2]", "xpath:href"],
+        ["xpath=//li[4]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d013dc76-3a0a-487e-b43c-6904d7b18971",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Chapa de Madeira OSB Amarelo 1,20mx2,40mx11,1mm APA PLUS",
+      "targets": [
+        ["linkText=Chapa de Madeira OSB Amarelo 1,20mx2,40mx11,1mm APA PLUS", "linkText"],
+        ["css=.product-item:nth-child(1) .name", "css:finder"],
+        ["xpath=//a[contains(text(),'Chapa de Madeira OSB Amarelo 1,20mx2,40mx11,1mm APA PLUS')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/Todas-as-categorias/Madeiras/Chapas-e-Pain%C3%A9is/Chapas-de-OSB/Chapa-de-Madeira-OSB-Amarelo-1%2C20mx2%2C40mx11%2C1mm-APA-PLUS/p/89138294')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Chapa de Madeira OSB Amarelo 1,20mx2,40mx11,1mm APA PLUS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07b9fc7b-9007-4520-8aab-d4cf9cc3a2cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17607377-cf8f-4771-af91-f218a55e87ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "13560-550"
+    }, {
+      "id": "396b0e1b-8c3c-4661-b470-3ee579b773a3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e755889f-a7ac-42f8-b394-59ea4bc064a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c5b5f2a-f816-4a77-936e-a6aad3a97a58",
+      "comment": "",
+      "command": "click",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21621c3c-af5c-46af-9f5e-caa9d1172636",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd28a0fd-14b9-4b40-957d-e5116a70a5ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc9a9f6-7a23-4638-bd7e-3f340e0db08f",
+      "comment": "",
+      "command": "click",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d6cd95-fd60-48dd-b9f4-5585975775f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a7260c3-635a-4128-9f12-087cbcad2d41",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd28b45f-0b02-42c6-a908-733b81433bf5",
+      "comment": "",
+      "command": "click",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64223101-7f7e-4e78-8480-af5338bd588a",
+      "comment": "",
+      "command": "type",
+      "target": "id=postalCodeInput",
+      "targets": [
+        ["id=postalCodeInput", "id"],
+        ["css=#postalCodeInput", "css:finder"],
+        ["xpath=//input[@id='postalCodeInput']", "xpath:attributes"],
+        ["xpath=//div[@id='js-postal-code-container']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "13187-244"
+    }, {
+      "id": "cebaf443-627d-4dd4-99dd-e26e273fc96e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main__inner-wrapper",
+      "targets": [
+        ["css=.main__inner-wrapper", "css:finder"],
+        ["xpath=//main/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d653baad-b6e2-4b23-90e1-ed3af7c30bc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a96f309c-dd4f-4e3b-9fe9-3e70ee1ee4b0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "aa668217-0f9f-4e53-9345-16b8de64844f",
+    "name": "QA_Fechar_Pedido_Boleto_B2C",
+    "commands": [{
+      "id": "58a0611b-8bdb-4126-b5b4-ca99480fc0c6",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9ac3b90-3184-49dc-908c-d1cb60e4fb90",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be5936e3-c92d-497f-b8b0-54fe427e0be4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cec21e28-9ecc-4a9f-8091-a59d5b10e1a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b72efef-8886-4ac9-90dc-acec57699168",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mariah e Laura Marketing Ltda",
+      "targets": [
+        ["linkText=Mariah e Laura Marketing Ltda", "linkText"],
+        ["css=td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mariah e Laura Marketing Ltda')]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=40798727000180')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mariah e Laura Marketing Ltda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e602c549-da1a-4e59-ac86-73be7518948a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Madeiras",
+      "targets": [
+        ["linkText=Madeiras", "linkText"],
+        ["css=.auto:nth-child(6) > .yCmsComponent > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Madeiras')])[5]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/Todas-as-categorias/Madeiras/c/1a8ad120950bca99adda415c')])[2]", "xpath:href"],
+        ["xpath=//li[4]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40856585-9823-47c8-81e7-c661415d6fcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#addToCartForm89138294 > .btn",
+      "targets": [
+        ["css=#addToCartForm89138294 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm89138294']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03168e47-2dca-46d8-8bfd-d6c4556548bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "164d7aa7-4a20-4dd9-9201-06adf1a9cec7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart__actions:nth-child(2) .btn-primary",
+      "targets": [
+        ["css=.cart__actions:nth-child(2) .btn-primary", "css:finder"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "117fe38e-52fb-451d-a6ef-bf30734bb8a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,12)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fbd480f-d616-437c-96c2-e42d6b61c993",
+      "comment": "",
+      "command": "click",
+      "target": "id=choosePaymentType_continue_button",
+      "targets": [
+        ["id=choosePaymentType_continue_button", "id"],
+        ["css=#choosePaymentType_continue_button", "css:finder"],
+        ["xpath=//button[@id='choosePaymentType_continue_button']", "xpath:attributes"],
+        ["xpath=//form[@id='selectPaymentTypeForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d22c3e76-58f7-440b-99a6-482e1d15277a",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fbef44e-111c-409d-b406-bbd8d832b953",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "13187-244"
+    }, {
+      "id": "7d2c30fd-8d4b-4265-b7f6-6531e396b905",
+      "comment": "",
+      "command": "select",
+      "target": "id=address.region",
+      "targets": [],
+      "value": "label=São Paulo"
+    }, {
+      "id": "4b80e1a0-9b9e-42e8-8519-0e3229129d4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=addressSubmit",
+      "targets": [
+        ["id=addressSubmit", "id"],
+        ["css=#addressSubmit", "css:finder"],
+        ["xpath=//button[@id='addressSubmit']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb8809bb-1da2-4e25-9258-eab7a5d8828a",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.line1",
+      "targets": [
+        ["id=address.line1", "id"],
+        ["name=line1", "name"],
+        ["css=#address\\.line1", "css:finder"],
+        ["xpath=//input[@id='address.line1']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b80bb6b9-e460-4d92-9c2d-c6230720e52b",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.line1",
+      "targets": [
+        ["id=address.line1", "id"],
+        ["name=line1", "name"],
+        ["css=#address\\.line1", "css:finder"],
+        ["xpath=//input[@id='address.line1']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Octávio Boro"
+    }, {
+      "id": "03ae1c48-3f84-43d5-a6f1-623a9dd3fb25",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.postcode",
+      "targets": [
+        ["id=address.postcode", "id"],
+        ["name=postcode", "name"],
+        ["css=#address\\.postcode", "css:finder"],
+        ["xpath=//input[@id='address.postcode']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "13187-244"
+    }, {
+      "id": "0c41edb9-e2ab-46e2-b680-87e0592b12a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.streetNumber",
+      "targets": [
+        ["id=address.streetNumber", "id"],
+        ["name=streetNumber", "name"],
+        ["css=#address\\.streetNumber", "css:finder"],
+        ["xpath=//input[@id='address.streetNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "221"
+    }, {
+      "id": "7c77dc33-7eaf-481f-be41-f6987d1a6222",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.townCity",
+      "targets": [
+        ["id=address.townCity", "id"],
+        ["name=townCity", "name"],
+        ["css=#address\\.townCity", "css:finder"],
+        ["xpath=//input[@id='address.townCity']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "São Carlos"
+    }, {
+      "id": "de214cc1-1035-4888-b18c-05e200c195c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=address.district",
+      "targets": [
+        ["id=address.district", "id"],
+        ["name=district", "name"],
+        ["css=#address\\.district", "css:finder"],
+        ["xpath=//input[@id='address.district']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7c997d2-af5f-4b42-8680-b42e83475eb2",
+      "comment": "",
+      "command": "type",
+      "target": "id=address.district",
+      "targets": [
+        ["id=address.district", "id"],
+        ["name=district", "name"],
+        ["css=#address\\.district", "css:finder"],
+        ["xpath=//input[@id='address.district']", "xpath:attributes"],
+        ["xpath=//div[@id='i18nAddressForm']/div[3]/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Jardim das Figueiras I"
+    }, {
+      "id": "b52ac638-1e90-4f24-847e-9cb4c2ab0119",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-address-left-label",
+      "targets": [
+        ["css=.add-address-left-label", "css:finder"],
+        ["xpath=//form[@id='leroyAddressForm']/div[3]/div/div/label", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fc38860-1bda-416d-8c52-8bf17f4fada7",
+      "comment": "",
+      "command": "click",
+      "target": "id=addressSubmit",
+      "targets": [
+        ["id=addressSubmit", "id"],
+        ["css=#addressSubmit", "css:finder"],
+        ["xpath=//button[@id='addressSubmit']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bd5bc5a-9031-4003-be3b-bfb13d73b55f",
+      "comment": "",
+      "command": "click",
+      "target": "id=deliveryMethodSubmit",
+      "targets": [
+        ["id=deliveryMethodSubmit", "id"],
+        ["css=#deliveryMethodSubmit", "css:finder"],
+        ["xpath=//button[@id='deliveryMethodSubmit']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a602232-1c14-4210-8b73-4696557f2258",
+      "comment": "",
+      "command": "click",
+      "target": "id=Terms1",
+      "targets": [
+        ["id=Terms1", "id"],
+        ["name=termsCheck", "name"],
+        ["css=.place-order-form > #placeOrderForm1 #Terms1", "css:finder"],
+        ["xpath=//input[@id='Terms1']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01897e92-b3e6-4b61-86a3-31d0d1ec68d7",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d087158-c54b-4669-afbb-41e4193381ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=placeOrder",
+      "targets": [
+        ["id=placeOrder", "id"],
+        ["css=.place-order-form > #placeOrderForm1 > #placeOrder", "css:finder"],
+        ["xpath=//button[@id='placeOrder']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d67ea83a-f82e-4554-83ef-2fc7377479de",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2711d3b5-45f3-47d9-a76f-07715212a5b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--continue-shopping",
+      "targets": [
+        ["css=.btn--continue-shopping", "css:finder"],
+        ["xpath=//div[2]/div[2]/div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a59dfd7-6ddc-47ef-bae1-9006a00be3f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#stopEmulate > .hidden-sm",
+      "targets": [
+        ["css=#stopEmulate > .hidden-sm", "css:finder"],
+        ["xpath=//button[@id='stopEmulate']/span", "xpath:idRelative"],
+        ["xpath=//fieldset/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f5061d9-8c5b-45ab-9b44-63338dc509c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-logout",
+      "targets": [
+        ["css=.ASM-btn-logout", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLogoutForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "588cb4bc-7c40-4287-bf69-c01f9f020a29",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "09655655-f2be-416e-9a0b-55989c64a6de",
+    "name": "QA_Fechar_Pedido_Cartao_Credito_B2C",
+    "commands": [{
+      "id": "5fa8cbf7-bfeb-4f95-bed0-1ec2a9d37e74",
+      "comment": "",
+      "command": "open",
+      "target": "https://accstorefront.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fab257b8-0ae3-4cd3-a318-21a1e86c3b87",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4f5cc65-50e6-407d-bcaf-7111292f33b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn",
+      "targets": [
+        ["css=.ASM-btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='asmLoginForm']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8242479f-7be3-4e31-bc5e-82d3d76d294e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ASM-btn-customers",
+      "targets": [
+        ["css=.ASM-btn-customers", "css:finder"],
+        ["xpath=//a[@id='product_1']/span[2]", "xpath:idRelative"],
+        ["xpath=//body/div/div/div/div[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e843256-a3f6-44e8-b727-b5d37c965c0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mariah e Laura Marketing Ltda",
+      "targets": [
+        ["linkText=Mariah e Laura Marketing Ltda", "linkText"],
+        ["css=td:nth-child(2) > .responsive-table-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mariah e Laura Marketing Ltda')]", "xpath:link"],
+        ["xpath=//div[@id='cboxLoadedContent']/div/div[2]/div/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/assisted-service/emulate/?customerId=40798727000180')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mariah e Laura Marketing Ltda')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b1158a-f483-4d23-a19c-5e0758d2cf84",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ferramentas",
+      "targets": [
+        ["linkText=Ferramentas", "linkText"],
+        ["css=.auto:nth-child(7) a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ferramentas')])[12]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/Todas-as-categorias/Ferramentas/c/b42110d83574a6a9fbdcbcfb')])[2]", "xpath:href"],
+        ["xpath=//li[5]/span/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7979c2c-5211-40aa-bc21-90b63c7e7a2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#addToCartForm87060806 > .btn",
+      "targets": [
+        ["css=#addToCartForm87060806 > .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//form[@id='addToCartForm87060806']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68dc1cf5-7268-4467-b079-d68a3a5a5a62",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": "263,22.0234375"
+    }, {
+      "id": "0c4a9c8c-bd3a-4a75-9964-e1d481bff5e4",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": "263,22.0234375"
+    }, {
+      "id": "7c72f398-561b-421c-9847-e5bce81dcfc3",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": "263,22.0234375"
+    }, {
+      "id": "856121c6-459c-4b48-a458-2a4ea482bc23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-to-cart-button",
+      "targets": [
+        ["css=.add-to-cart-button", "css:finder"],
+        ["xpath=//a[contains(text(),'Finalizar Compra')]", "xpath:link"],
+        ["xpath=//div[@id='addToCartLayer']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/leroystorefront/pt/cart')])[3]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4e59b03-236a-42ef-bbd6-d8bb85d2fbd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart__actions:nth-child(2) .btn-primary",
+      "targets": [
+        ["css=.cart__actions:nth-child(2) .btn-primary", "css:finder"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1c8970e-2c3d-4d2c-9a9e-19cad8af3440",
+      "comment": "",
+      "command": "click",
+      "target": "id=PaymentTypeSelection_CARD",
+      "targets": [
+        ["id=PaymentTypeSelection_CARD", "id"],
+        ["css=#PaymentTypeSelection_CARD", "css:finder"],
+        ["xpath=//input[@id='PaymentTypeSelection_CARD']", "xpath:attributes"],
+        ["xpath=//form[@id='selectPaymentTypeForm']/div/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d6b6dcd-d222-44bb-9dc1-8cd01f03eca6",
+      "comment": "",
+      "command": "click",
+      "target": "id=choosePaymentType_continue_button",
+      "targets": [
+        ["id=choosePaymentType_continue_button", "id"],
+        ["css=#choosePaymentType_continue_button", "css:finder"],
+        ["xpath=//button[@id='choosePaymentType_continue_button']", "xpath:attributes"],
+        ["xpath=//form[@id='selectPaymentTypeForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dc0ac67-a4ce-463e-a8b2-1f33e78ff570",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d01107a5-9b15-4f22-a33e-21a6a28032f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.addressEntry:nth-child(1) .btn",
+      "targets": [
+        ["css=.addressEntry:nth-child(1) .btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='addressbook']/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fff5afa6-e635-42e2-a994-935ea43d85b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=deliveryMethodSubmit",
+      "targets": [
+        ["id=deliveryMethodSubmit", "id"],
+        ["css=#deliveryMethodSubmit", "css:finder"],
+        ["xpath=//button[@id='deliveryMethodSubmit']", "xpath:attributes"],
+        ["xpath=//div[3]/div/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8773e96-ad66-4416-85f5-5d28d54efc76",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,459)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4c7c507-474a-48e1-9f59-b0ac8da83bc3",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirmationMessage",
+      "targets": [
+        ["id=confirmationMessage", "id"],
+        ["name=confirmationMessage", "name"],
+        ["css=#confirmationMessage", "css:finder"],
+        ["xpath=//input[@id='confirmationMessage']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc6ce33f-0b0f-416b-b1b6-86da13a04321",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmationMessage",
+      "targets": [
+        ["id=confirmationMessage", "id"],
+        ["name=confirmationMessage", "name"],
+        ["css=#confirmationMessage", "css:finder"],
+        ["xpath=//input[@id='confirmationMessage']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "seguro"
+    }, {
+      "id": "afb0da4f-c88c-4f00-bda0-0132c07472c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=Terms1",
+      "targets": [
+        ["id=Terms1", "id"],
+        ["name=termsCheck", "name"],
+        ["css=.checkbox:nth-child(2) #Terms1", "css:finder"],
+        ["xpath=//input[@id='Terms1']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dce809e-531c-4e2a-84dc-19b4dab6a14b",
+      "comment": "",
+      "command": "click",
+      "target": "id=placeOrder",
+      "targets": [
+        ["id=placeOrder", "id"],
+        ["css=.place-order-form > #placeOrderForm1 > #placeOrder", "css:finder"],
+        ["xpath=//button[@id='placeOrder']", "xpath:attributes"],
+        ["xpath=//form[@id='placeOrderForm1']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1ae46d6-b852-4cf8-8c33-3f0ada913a2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-checkout-paymentLink_link-button",
+      "targets": [
+        ["css=.js-checkout-paymentLink_link-button", "css:finder"],
+        ["xpath=//div/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6639236-6df4-4cfe-a43e-541205f5fc23",
+      "comment": "",
+      "command": "click",
+      "target": "id=checkout-paymentLink_value",
+      "targets": [
+        ["id=checkout-paymentLink_value", "id"],
+        ["linkText=https://accstorefront.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/leroystorefront//payment?token=TN5jGXLQy14L8ttOmtiw5VS6XTaT4Ai3VD8KF8wcTbor2BZnqY8FDBXgbRQbCsg969eVNcqAxZlSyQIPJSXbh4VJqPvNXlJILoxajyhDFCEhMkKBNCoXp7tnpLlCPBHguQiVFiNF9OpeMOUSbESZnAIf7vQgI3IDGw%3D%3D", "linkText"],
+        ["css=#checkout-paymentLink_value", "css:finder"],
+        ["xpath=//a[contains(text(),'https://accstorefront.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/leroystorefront//payment?token=TN5jGXLQy14L8ttOmtiw5VS6XTaT4Ai3VD8KF8wcTbor2BZnqY8FDBXgbRQbCsg969eVNcqAxZlSyQIPJSXbh4VJqPvNXlJILoxajyhDFCEhMkKBNCoXp7tnpLlCPBHguQiVFiNF9OpeMOUSbESZnAIf7vQgI3IDGw%3D%3D')]", "xpath:link"],
+        ["xpath=//a[@id='checkout-paymentLink_value']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '/leroystorefront/pt/payment?token=TN5jGXLQy14L8ttOmtiw5VS6XTaT4Ai3VD8KF8wcTbor2BZnqY8FDBXgbRQbCsg969eVNcqAxZlSyQIPJSXbh4VJqPvNXlJILoxajyhDFCEhMkKBNCoXp7tnpLlCPBHguQiVFiNF9OpeMOUSbESZnAIf7vQgI3IDGw%3d%3d')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'https://accstorefront.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/leroystorefront//payment?token=TN5jGXLQy14L8ttOmtiw5VS6XTaT4Ai3VD8KF8wcTbor2BZnqY8FDBXgbRQbCsg969eVNcqAxZlSyQIPJSXbh4VJqPvNXlJILoxajyhDFCEhMkKBNCoXp7tnpLlCPBHguQiVFiNF9OpeMOUSbESZnAIf7vQgI3IDGw%3D%3D')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f574a96-71a8-4d85-aefd-6f127e649840",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardName",
+      "targets": [
+        ["id=cardName", "id"],
+        ["css=#cardName", "css:finder"],
+        ["xpath=//input[@id='cardName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7c8ea92-0482-4f97-b2d2-d1c3e50c264c",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardName",
+      "targets": [
+        ["id=cardName", "id"],
+        ["css=#cardName", "css:finder"],
+        ["xpath=//input[@id='cardName']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "mariah laura"
+    }, {
+      "id": "4f32ae96-ac54-43c4-9633-a754e3572e7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02a41af8-88eb-4e31-96e6-f9d50f0c4a86",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardNumber",
+      "targets": [
+        ["id=cardNumber", "id"],
+        ["css=#cardNumber", "css:finder"],
+        ["xpath=//input[@id='cardNumber']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "5258611220667077"
+    }, {
+      "id": "536baaf2-a24e-4fa3-b24b-6fdabd64908c",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardMonth",
+      "targets": [
+        ["id=cardMonth", "id"],
+        ["css=#cardMonth", "css:finder"],
+        ["xpath=//select[@id='cardMonth']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c87eeb6-72b7-4fb8-8e82-f58caa17ed07",
+      "comment": "",
+      "command": "select",
+      "target": "id=cardMonth",
+      "targets": [],
+      "value": "label=08"
+    }, {
+      "id": "84afa825-8890-4bb8-b6b6-40908dba106d",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardYear",
+      "targets": [
+        ["id=cardYear", "id"],
+        ["css=#cardYear", "css:finder"],
+        ["xpath=//select[@id='cardYear']", "xpath:attributes"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a16e1dd-5244-4487-b30b-04e09ec1b07f",
+      "comment": "",
+      "command": "select",
+      "target": "id=cardYear",
+      "targets": [],
+      "value": "label=2024"
+    }, {
+      "id": "6c739ac0-ebc5-4073-a42d-fd34d55931e4",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardCvc",
+      "targets": [
+        ["id=cardCvc", "id"],
+        ["css=#cardCvc", "css:finder"],
+        ["xpath=//input[@id='cardCvc']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "610f9b9a-e7b0-47c5-819d-451d42b19de9",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardCvc",
+      "targets": [
+        ["id=cardCvc", "id"],
+        ["css=#cardCvc", "css:finder"],
+        ["xpath=//input[@id='cardCvc']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "671"
+    }, {
+      "id": "1925f443-a047-4e25-ba14-a18f030f859f",
+      "comment": "",
+      "command": "click",
+      "target": "id=encrypt-payment-data",
+      "targets": [
+        ["id=encrypt-payment-data", "id"],
+        ["css=#encrypt-payment-data", "css:finder"],
+        ["xpath=//input[@id='encrypt-payment-data']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "499019db-b46b-4779-b01f-92e632328cf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment-confirmation__message-order-number",
+      "targets": [
+        ["css=.payment-confirmation__message-order-number", "css:finder"],
+        ["xpath=//main/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "944109fd-febe-4f73-8f7c-222864f1deb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment-confirmation__message-order-number",
+      "targets": [
+        ["css=.payment-confirmation__message-order-number", "css:finder"],
+        ["xpath=//main/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d672d6-130b-4ce8-ba91-89bb23ca88a3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.payment-confirmation__message-order-number",
+      "targets": [
+        ["css=.payment-confirmation__message-order-number", "css:finder"],
+        ["xpath=//main/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea279d1f-7d9a-45b1-96d2-53c66072e4df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment-confirmation__message-order-number",
+      "targets": [
+        ["css=.payment-confirmation__message-order-number", "css:finder"],
+        ["xpath=//main/div/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec5ae6a9-0b04-4f20-a2b0-b158ed06558a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment-confirmation__disclaimer-message",
+      "targets": [
+        ["css=.payment-confirmation__disclaimer-message", "css:finder"],
+        ["xpath=//main/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "589763ee-bcdb-460d-9491-f75039ec03a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment-confirmation__disclaimer-message",
+      "targets": [
+        ["css=.payment-confirmation__disclaimer-message", "css:finder"],
+        ["xpath=//main/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e47d668-60f5-4c5b-83b3-17e674744875",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.payment-confirmation__disclaimer-message",
+      "targets": [
+        ["css=.payment-confirmation__disclaimer-message", "css:finder"],
+        ["xpath=//main/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5a496bb-86a4-4ef8-92a8-765c7df27730",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment-confirmation__disclaimer-message",
+      "targets": [
+        ["css=.payment-confirmation__disclaimer-message", "css:finder"],
+        ["xpath=//main/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fff472a-b479-4f10-8b6f-b5b29224a05b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.payment-confirmation__disclaimer-message",
+      "targets": [
+        ["css=.payment-confirmation__disclaimer-message", "css:finder"],
+        ["xpath=//main/div/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "75fb145c-b569-454b-8eb3-64ee0a7679fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e5ea869-5c12-431b-8a9c-da1319e43c6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-4 img",
+      "targets": [
+        ["css=.col-sm-4 img", "css:finder"],
+        ["xpath=(//img[@alt='Leroy Merlin'])[2]", "xpath:img"],
+        ["xpath=//div[2]/div/div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b733236-82f5-4199-bb25-8c8f7f31f7f5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "19531286-f2f2-478d-9415-c6ed38fd346a",
@@ -17947,14 +20575,14 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["a92b0dad-42a4-4840-8baf-d19b80dc8e1c", "bbd9e93d-2730-47e2-885f-40646b2d2550", "11f9adf2-b69b-4cca-802f-adc0e56a1aca", "338b6ec3-c061-462a-b106-d2733167241d", "038db2c2-8669-4468-804e-620e13b8839c", "0bdc53b3-e5be-4195-b966-db29f572c16f", "3ba57e1e-7c83-4a8e-9184-524c6d97d312", "eb466396-bc71-4f29-988f-87e908cf4b20", "54fe2b26-d017-4bb9-b689-6477fcd493ca"]
+    "tests": ["a92b0dad-42a4-4840-8baf-d19b80dc8e1c", "bbd9e93d-2730-47e2-885f-40646b2d2550", "11f9adf2-b69b-4cca-802f-adc0e56a1aca", "338b6ec3-c061-462a-b106-d2733167241d", "038db2c2-8669-4468-804e-620e13b8839c", "0bdc53b3-e5be-4195-b966-db29f572c16f", "3ba57e1e-7c83-4a8e-9184-524c6d97d312", "eb466396-bc71-4f29-988f-87e908cf4b20", "54fe2b26-d017-4bb9-b689-6477fcd493ca", "a30b33fa-250c-4d4d-a68f-0c1af0f9333f", "ffb934fa-6eec-4965-b58b-7e44081691b9", "f5c1a187-17e7-4a69-8bc6-23e0c46ed94e", "3ab49c91-b9e5-4bf2-b91b-7f1173dbaada", "b77425c6-a211-407f-952b-c4d751676811", "a0cc73f0-c961-4a00-b221-7b8a39cf0ab4", "61a3109a-2bdc-49cf-bc24-ef5f95c8d166", "70c7e584-6920-4c73-a889-8d775c1ad9e1", "7d26db41-2b9b-482a-a3f4-090eb38f6a5e", "6868b1d0-c432-4624-9097-233e26cef0c4"]
   }, {
     "id": "b99a9d19-2688-48e2-a861-a0206991fc1a",
     "name": "QA_B2C",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["d40e57d9-8100-4916-b49b-954e0f74ca19", "d61ef497-bb16-4e77-aed6-d7cfa930e59d", "56989a9f-a2a8-42fd-afc3-eef5a302bc7e", "ac403a04-208b-4a9b-9d67-b5c8751c8e53", "b3548d4a-edb0-48a8-b866-c6bd9ff1530c", "6a684da2-6830-4872-a253-b28293457f7b", "4e5489f8-e014-423f-b0d2-07bd66103387", "68e1a6ab-4cca-4b44-95ca-ed6868713f87", "637b07df-cdcf-4314-a4db-24414bdb7255", "3b513fa9-b422-4f0c-8158-657ee2d18fb3", "bbc23c94-847e-4366-adfe-c8c181bf4df9", "e0737948-d174-4cca-96c8-40c573510852", "333cbb00-d850-424b-92c9-57e7c4d91a11", "ab7fe030-3fa4-44b5-a22f-bcc34444a30d"]
+    "tests": ["d40e57d9-8100-4916-b49b-954e0f74ca19", "d61ef497-bb16-4e77-aed6-d7cfa930e59d", "56989a9f-a2a8-42fd-afc3-eef5a302bc7e", "ac403a04-208b-4a9b-9d67-b5c8751c8e53", "b3548d4a-edb0-48a8-b866-c6bd9ff1530c", "6a684da2-6830-4872-a253-b28293457f7b", "4e5489f8-e014-423f-b0d2-07bd66103387", "68e1a6ab-4cca-4b44-95ca-ed6868713f87", "637b07df-cdcf-4314-a4db-24414bdb7255", "3b513fa9-b422-4f0c-8158-657ee2d18fb3", "bbc23c94-847e-4366-adfe-c8c181bf4df9", "e0737948-d174-4cca-96c8-40c573510852", "333cbb00-d850-424b-92c9-57e7c4d91a11", "ab7fe030-3fa4-44b5-a22f-bcc34444a30d", "afcce095-c9ef-4bd1-8215-cefe97c6ad00", "aa668217-0f9f-4e53-9345-16b8de64844f", "09655655-f2be-416e-9a0b-55989c64a6de"]
   }],
   "urls": ["https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/", "https://b2b.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login", "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/", "https://b2b.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login", "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/salesperson/login", "https://b2b.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/b2bleroystorefront/leroyB2B/pt/BRL/login", "https://accstorefront.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/leroystorefront/?site=leroyB2c", "https://accstorefront.c9psz3ggex-leroymerl1-d1-public.model-t.cc.commerce.ondemand.com/leroystorefront/?site=leroyB2c", "https://accstorefront.c9psz3ggex-leroymerl1-s1-public.model-t.cc.commerce.ondemand.com/leroystorefront/pt/sales-person/login"],
   "plugins": []
